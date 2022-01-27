@@ -1,0 +1,209 @@
+<!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "overrides/main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+
+    .md-main {
+      flex: 0;
+    } 
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+    .tx-container {  
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' fill='rgb(28,29,38)' /></svg>") no-repeat bottom,
+                  linear-gradient(to bottom,var(--md-primary-fg-color),rgb(77, 3, 83) 99%,var(--md-footer-bg-color) 99%);
+        flex: 1;
+    }
+
+    .tx-hero {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+    }
+
+    .tx-hero h1 {
+      margin-bottom: 12px;
+      color: currentColor;
+      font-weight: 800;
+      font-size: 40px;
+    }
+
+    .tx-hero h2 {
+      margin: 0;  
+      font-size: 1.1em;
+    }
+    
+    .tx-hero__image img {
+      width: 100%;
+      height: auto;
+      min-height: 100px;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+    }
+
+    .tx-hero__quote {
+        margin: 2em 0 !important;
+        font-size: .8em !important;
+    }
+
+    .tx-hero .md-button {
+        color: var(--md-primary-bg-color);
+        border-color: var(--md-primary-bg-color);
+    }
+
+    .tx-hero .md-button--primary {
+        background-color: var(--md-primary-bg-color);
+        color: var(--md-default-bg-color)
+    }
+
+    .tx-hero__content {
+        flex: 0 0 100%;
+        padding: 18px;
+      }
+      
+      .tx-hero__image {
+        padding: 2vh 20vw;
+      }
+
+      .tx-hero .md-button {
+        padding: .425em 1.6em;
+      }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+
+      .tx-hero__content {
+        flex: 0 0 45%;
+      }
+
+      .tx-hero {
+        min-height: 55vh;
+      }
+
+      .tx-hero__image {
+        order: 1;
+        flex: 0 0 55%;
+        padding: 15.5vh 18px 15.5vh 50px;
+      }
+
+      .tx-hero h1 {
+        margin-top: 70px;
+        margin-bottom: 20px;
+        color: currentColor;
+        font-weight: 800;
+        font-size: 70px;
+      }
+
+      .tx-hero h2 {
+        font-size: 1.5625em;
+      }
+
+      .tx-hero__quote {
+        margin: 2.5em 0 !important;
+        font-size: 1em !important;
+      }
+
+      .tx-hero .md-button {
+        padding: .625em 2em;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+  </style>
+
+  <!-- Hero for landing page -->
+  <section class="tx-container">
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+
+        <!-- Hero image -->
+        <div class="tx-hero__image">
+          <img
+            src="assets/images/studio.png"
+            alt="repath studio"
+            draggable="false"
+          >
+        </div>
+
+        <!-- Hero content -->
+        <div class="tx-hero__content">
+          <h1>Studio</h1>
+          <h2>{{ config.site_description }}</h2>
+          <small>Open Source & Cross Platform</small>
+          <blockquote class="tx-hero__quote">
+            Originally, there is nothing — but as people walk this way again and again, a path appears.
+            <footer>
+              <cite><small>Lu Xun, 1921</small></cite>
+            </footer>
+          </blockquote>
+          <a
+            href="{{ page.next_page.url | url }}"
+            title="{{ page.next_page.title | striptags }}"
+            class="md-button md-button--primary"
+          >
+            Download
+          </a>
+          <a
+            href="{{ config.repo_url }}"
+            title="{{ lang.t('source.link.title') }}"
+            class="md-button"
+          >
+            Go to GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}
+{% include "partials/footer.html" %}
+{% endblock %}
+© 2020 GitHub, Inc.

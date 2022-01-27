@@ -1,0 +1,38 @@
+name: Build Website
+
+on:
+  push:
+    branches:
+      - main
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+            fetch-depth: 0
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - run: npm install
+      - run: node ./node_modules/roadmap-generator/index.js ./roadmap.conf.js ${{ secrets.PERSONAL_ACCESS_TOKEN }} -gs > ./docs/roadmap/roadmap.md
+      - run: npm install github-release-notes -g
+      - run: gren changelog --generate --username=re-path --repo=studio --changelog-filename=./docs/roadmap/changelog.md --data-source=issues --token=${{ secrets.ROADMAP_TOKEN }}
+      - run: pip install git+https://${PERSONAL_ACCESS_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+      - run: mkdocs gh-deploy --clean --force
+
+
+      

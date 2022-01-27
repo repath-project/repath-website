@@ -1,0 +1,79 @@
+site_name: repath
+site_description: Vector Graphics Manipulation Tool
+site_author: Konstantinos Kaloutas
+site_url: https://repath.studio/
+copyright: © 2022 repath.studio
+
+repo_url: https://github.com/re-path/studio
+repo_name: re-path/studio
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+theme:
+  name: material
+  custom_dir: theme
+  favicon: assets/images/favicon.png
+  features:
+  - navigation.tabs
+  - navigation.indexes
+  - announce.dismiss
+  icon:
+    repo: fontawesome/brands/git-alt
+  logo: assets/images/logo.svg
+  palette:
+    scheme: slate
+    primary: pink-700
+    accent: pink
+  font:
+    text: Sora
+
+nav:
+  - Home: index.md
+  - Get Studio: 
+    - get-studio/download.md
+    - get-studio/build-from-source.md
+  - Docs: 
+    - docs/keyboard-shortcuts.md
+  - Contribute: 
+    - contribute/cla.md
+  - Roadmap: 
+    - roadmap/roadmap.md
+    - roadmap/changelog.md
+
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/solid/at
+    link: mailto:contact@repath.studio
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/yzjY6W6ame
+  - icon: fontawesome/brands/twitter
+    link: https://www.twitter.com/repath_studio/
+  - icon: fontawesome/brands/instagram
+    link: https://www.instagram.com/repath.studio/
+  - icon: fontawesome/brands/github
+    link: https://github.com/re-path
+  consent:
+    title: Cookie consent
+    description: >- # 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+google_analytics:
+  - UA-174337896-1
+  - auto
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences 
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
