@@ -2,10 +2,10 @@ site_name: repath
 site_description: Vector Graphics Manipulation Tool
 site_author: Konstantinos Kaloutas
 site_url: https://repath.studio/
-copyright: © 2022 repath.studio
+copyright: 2022 © Konstantinos Kaloutas
 
-repo_url: https://github.com/re-path/studio
-repo_name: re-path/studio
+repo_url: https://github.com/sprocketc/repath-studio
+repo_name: sprocketc/repath-studio
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -53,7 +53,7 @@ extra:
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/repath.studio/
   - icon: fontawesome/brands/github
-    link: https://github.com/re-path
+    link: https://github.com/sprocketc/
   consent:
     title: Cookie consent
     description: >- # 
@@ -61,6 +61,20 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
 
 google_analytics:
   - UA-174337896-1
@@ -77,3 +91,9 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+
+plugins:
+  - social:
+      cards_color:
+            fill: "#1c1d26" 
+            text: "#FFFFFF"

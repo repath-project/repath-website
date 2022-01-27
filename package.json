@@ -1,10 +1,9 @@
 {
-  "name": "repath-website",
-  "description": "Repath Websitel",
-  "repository": "https://github.com/re-path/website",
+  "name": "repath-studio-website",
+  "description": "RePath Studio Website",
+  "repository": "https://github.com/sprocketc/repath-studio-website",
   "author": "Konstantinos Kaloutas",
   "homepage": "https://repath.studio",
-  "license": "EPL-1.0",
   "version": "0.0.1",
   "devDependencies": {
     "roadmap-generator": "0.0.3"

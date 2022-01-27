@@ -1,5 +1,9 @@
 # Node.js dependencies
 /node_modules/
 
+# Caches and logs
+*.log
+.cache
+
 # Website
 site
