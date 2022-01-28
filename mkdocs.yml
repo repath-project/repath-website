@@ -36,7 +36,9 @@ nav:
   - Docs: 
     - docs/keyboard-shortcuts.md
   - Contribute: 
-    - contribute/cla.md
+    - contribute/develop.md
+    - contribute/code-of-conduct.md
+    - contribute/contributor-license-agreement.md
   - Roadmap: 
     - roadmap/roadmap.md
     - roadmap/changelog.md

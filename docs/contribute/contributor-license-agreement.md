@@ -21,5 +21,5 @@ This Contributor License Agreement (“CLA”) applies to any contribution that 
 You agree to notify us if you become aware of any circumstance which would make any of the foregoing representations
 
 This document is a modified version of Oracle Contributor Agreement – version 1.7.1  
-Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.  
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+Licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).  
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/)
