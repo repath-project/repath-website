@@ -30,7 +30,7 @@ jobs:
       - run: npm install
       - run: node ./node_modules/roadmap-generator/index.js ./roadmap.conf.js ${{ secrets.PERSONAL_ACCESS_TOKEN }} -gs > ./docs/roadmap/roadmap.md
       - run: npm install github-release-notes -g
-      - run: gren changelog --generate --username=re-path --repo=studio --changelog-filename=./docs/roadmap/changelog.md --data-source=issues --token=${{ secrets.ROADMAP_TOKEN }}
+      - run: gren changelog --generate --username=sprocketc --repo=repath-studio --changelog-filename=./docs/roadmap/changelog.md --data-source=issues --token=${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - run: pip install git+https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --clean --force
 
