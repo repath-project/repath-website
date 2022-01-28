@@ -1,7 +1,7 @@
 # Develop
 
 Thank you for your interest in actively participating in the project's development!
-Please read the Contributor License Agreement and the Contributor Covenant Code of ConductContributor Covenant Code of Conduct first.
+Please read the [Contributor Covenant Code of Conduct](code-of-conduct.md) and the [Contributor License Agreement](contributor-license-agreement.md) first.
 
 ## How to Run
 ```
