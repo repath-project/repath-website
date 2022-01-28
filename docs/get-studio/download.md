@@ -1,5 +1,10 @@
 # Download
 
+!!! caution
+
+    This application is a proof of concept.
+    It is not ready to be used for any serious design work.
+
 Select your operating system
 
 [![download for Linux](/assets/images/linux-badge.svg)](https://github.com/re-path/studio/releases/latest/download/repath-studio-linux.AppImage)
