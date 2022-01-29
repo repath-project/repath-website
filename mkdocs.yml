@@ -16,8 +16,10 @@ theme:
   favicon: assets/images/favicon.png
   features:
   - navigation.tabs
+  - navigation.expand
   - navigation.indexes
   - announce.dismiss
+  - navigation.top
   icon:
     repo: fontawesome/brands/git-alt
   logo: assets/images/logo.svg
@@ -37,12 +39,13 @@ nav:
     - docs/keyboard-shortcuts.md
   - Contribute: 
     - contribute/develop.md
-    - contribute/code-of-conduct.md
-    - contribute/contributor-license-agreement.md
+    - CLA: contribute/contributor-license-agreement.md
   - Roadmap: 
-    - roadmap/roadmap.md
     - roadmap/changelog.md
-
+  - Blog: 
+    - blog/posts.md
+    - blog/tags.md
+    
 extra:
   generator: false
   social:
@@ -97,7 +100,12 @@ markdown_extensions:
           - overrides/.icons
 
 plugins:
-  - social:
-      cards_color:
-            fill: "#1c1d26" 
-            text: "#FFFFFF"
+  - tags
+  - blogging:
+      dirs:
+        - blog/articles
+      template: theme/overrides/custom-blog.html
+      features:
+        tags:
+          index_page: blog/tags.md
+

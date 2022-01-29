@@ -1,0 +1,3 @@
+# Posts
+
+{{ blog_content }}
