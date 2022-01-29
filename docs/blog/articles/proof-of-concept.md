@@ -9,4 +9,4 @@ tags:
 
 The proof of concept has been released! 
 
-You can download the binaries [here](../../../get-studio/download/)
+You can download the binaries [here](../../../get-studio/download/).
