@@ -91,6 +91,14 @@
     
       
     
+      
+    
+      
+    
+      
+    
+      
+    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -261,10 +269,33 @@
     
     
       <li class="md-tabs__item">
-        <a href="/roadmap/roadmap/" class="md-tabs__link">
+        <a href="/roadmap/changelog/" class="md-tabs__link">
           
   
   Roadmap
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+
+
+  
+    
+    
+  
+  
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="/blog/posts/" class="md-tabs__link">
+          
+  
+  Blog
 
         </a>
       </li>
@@ -348,7 +379,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -432,7 +463,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -495,12 +526,10 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
-        
-          
         
           
         
@@ -550,30 +579,11 @@
   
   
     <li class="md-nav__item">
-      <a href="/contribute/code-of-conduct/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Contributor Covenant Code of Conduct
-  </span>
-
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="/contribute/contributor-license-agreement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Contributor License Agreement
+    CLA
   </span>
 
       </a>
@@ -600,12 +610,10 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
       
       
-        
-          
         
           
         
@@ -634,11 +642,76 @@
   
   
     <li class="md-nav__item">
-      <a href="/roadmap/roadmap/" class="md-nav__link">
+      <a href="/roadmap/changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    RePath Studio - Roadmap
+    Changelog
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Blog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/blog/posts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Posts
   </span>
 
       </a>
@@ -653,11 +726,11 @@
   
   
     <li class="md-nav__item">
-      <a href="/roadmap/changelog/" class="md-nav__link">
+      <a href="/blog/tags/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Changelog
+    Tags
   </span>
 
       </a>
@@ -689,6 +762,11 @@
             
           </div>
         </div>
+        
+          <a href="#" class="md-top md-top--hidden md-icon" data-md-component="top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
         
       </main>
       
@@ -848,7 +926,7 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var form=document.forms.consent;form.addEventListener("submit",function(n){n.preventDefault(),__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(n){return[n,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "navigation.indexes", "announce.dismiss"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/assets/javascripts/workers/search.f7fe2898.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "navigation.expand", "navigation.indexes", "announce.dismiss", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/assets/javascripts/workers/search.f7fe2898.min.js"}</script>
     
     
       <script src="/assets/javascripts/bundle.7cc7e457.min.js"></script>
