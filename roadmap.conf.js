@@ -16,7 +16,7 @@ module.exports = {
   // List of projects that this roadmap covers
   projects: [
     {
-      name: "Prototype",
+      name: "RePath Studio",
       repos: [
         "sprocketc/repath-studio-insiders",
       ],
