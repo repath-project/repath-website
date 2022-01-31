@@ -102,6 +102,10 @@ markdown_extensions:
 
 plugins:
   - tags
+  - social:
+      cards_color:
+          fill: "#1c1d26" 
+          text: "#FFFFFF"
   - blogging:
       dirs:
         - blog/articles
