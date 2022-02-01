@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url(assets/fonts/Sora/static/Sora-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(assets/fonts/Sora/static/Sora-Light.ttf) format('truetype');
+  }
+  
+@font-face {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url(assets/fonts/Sora/static/Sora-Bold.ttf) format('truetype');
+ }
+  
 :root {
     --md-primary-fg-color:        #AD1457;
     --md-primary-fg-color--light: #EC407A;
@@ -6,6 +30,7 @@
 
 body {
     --md-typeset-a-color: var(--md-primary-fg-color--light) !important;
+    font-family: 'Sora', sans-serif;
 }
 
 .md-header__title,
@@ -23,8 +48,7 @@ body {
 }
 
 .heading {
-    font-family: Montserrat, sans-serif !important;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 @keyframes heart {
