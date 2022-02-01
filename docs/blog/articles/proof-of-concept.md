@@ -1,3 +1,4 @@
+
 ---
 title: Release v0.1.0
 description: The proof of concept has been released! 
@@ -5,6 +6,8 @@ author: sprocketc
 tags:
   - repath-studio
   - release
+hide:
+  - feedback
 ---
 
 The proof of concept has been released! 
