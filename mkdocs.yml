@@ -27,9 +27,8 @@ theme:
     scheme: slate
     primary: pink-700
     accent: pink
-  font:
-    text: Sora
-
+  font: false
+  
 nav:
   - Home: index.md
   - Get Studio: 
