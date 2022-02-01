@@ -68,6 +68,8 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   analytics: 
+    provider: google
+    property: G-301951966
     feedback:
       title: Was this page helpful?
       ratings:
@@ -81,10 +83,6 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
-
-google_analytics:
-  - UA-174337896-1
-  - auto
 
 markdown_extensions:
   - admonition
