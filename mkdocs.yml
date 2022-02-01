@@ -68,7 +68,7 @@ extra:
       make our documentation better.
   analytics: 
     provider: google
-    property: G-301951966
+    property: G-EJXPVG0694
     feedback:
       title: Was this page helpful?
       ratings:
