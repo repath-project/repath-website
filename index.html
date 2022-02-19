@@ -1243,8 +1243,6 @@
 <!-- Determine cookies (default to analytics, if present) -->
 
 
-  
-
 
 <!-- Consent title -->
 <h4>Cookie consent</h4>
@@ -1261,22 +1259,28 @@
       
       <li class="task-list-item">
         <label class="task-list-control">
-          <input type="checkbox" name="analytics" checked>
+          <input type="checkbox" name="analytics" >
           <span class="task-list-indicator"></span>
           Google Analytics
         <label>
       </li>
     
   </ul>
+
+  <button class="md-button md-button--primary">
+    Apply
+  </button>
 </div>
 
 <!-- Consent controls -->
 <div class="md-consent__controls">
   <label class="md-button" for="__settings">Manage settings</label>
   <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = false)">
-    Deny
+    Deny All
   </button>
-  <button class="md-button md-button--primary">Accept</button>
+  <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = true)">
+    Accept All
+  </button>
 </div>
           </form>
         </aside>

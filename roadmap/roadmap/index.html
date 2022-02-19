@@ -963,7 +963,7 @@
 
 <h1 id="repath-studio-roadmap">RePath Studio - Roadmap<a class="headerlink" href="#repath-studio-roadmap" title="Permanent link">&para;</a></h1>
 <p>This document describes the current status and the upcoming milestones of the RePath Studio project.</p>
-<p><em>Updated: Sat, 19 Feb 2022 10:03:01 GMT</em></p>
+<p><em>Updated: Sat, 19 Feb 2022 10:22:46 GMT</em></p>
 <h4 id="milestone-summary">Milestone Summary<a class="headerlink" href="#milestone-summary" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
@@ -1413,8 +1413,6 @@
 <!-- Determine cookies (default to analytics, if present) -->
 
 
-  
-
 
 <!-- Consent title -->
 <h4>Cookie consent</h4>
@@ -1431,22 +1429,28 @@
       
       <li class="task-list-item">
         <label class="task-list-control">
-          <input type="checkbox" name="analytics" checked>
+          <input type="checkbox" name="analytics" >
           <span class="task-list-indicator"></span>
           Google Analytics
         <label>
       </li>
     
   </ul>
+
+  <button class="md-button md-button--primary">
+    Apply
+  </button>
 </div>
 
 <!-- Consent controls -->
 <div class="md-consent__controls">
   <label class="md-button" for="__settings">Manage settings</label>
   <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = false)">
-    Deny
+    Deny All
   </button>
-  <button class="md-button md-button--primary">Accept</button>
+  <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = true)">
+    Accept All
+  </button>
 </div>
           </form>
         </aside>
