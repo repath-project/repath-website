@@ -71,10 +71,6 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our website better.
-
-      Please note that embedded content from other websites (e.g. videos, images etc.) 
-      may also collect data about you, use cookies, embed additional third-party tracking, 
-      and monitor your interaction with that embedded content.
   analytics: 
     provider: google
     property: G-EJXPVG0694
