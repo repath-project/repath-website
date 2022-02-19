@@ -51,6 +51,7 @@ extra:
   social:
   - icon: fontawesome/solid/at
     link: mailto:contact@repath.studio
+    title: email
   - icon: fontawesome/brands/discord
     link: https://discord.gg/yzjY6W6ame
   - icon: fontawesome/brands/twitter

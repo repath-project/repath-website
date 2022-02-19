@@ -144,3 +144,7 @@ body {
     background-color: var(--md-primary-bg-color);
     color: var(--md-default-bg-color)
 }
+
+.md-source__facts {
+    opacity: .8;
+}
