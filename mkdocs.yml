@@ -60,7 +60,7 @@ extra:
   - icon: fontawesome/brands/github
     link: https://github.com/sprocketc/
   consent:
-      cookies:
+    cookies:
       analytics:
         name: Google Analytics
         checked: false
