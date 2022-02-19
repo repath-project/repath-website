@@ -128,3 +128,8 @@ body {
     flex-shrink: 0;
     margin-right: .8rem;
 }
+
+.md-typeset .md-button {
+    color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+}
