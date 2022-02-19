@@ -85,6 +85,14 @@
         flex: 0 0 100%;
         padding: 18px;
       }
+
+    .tx-hero__tagline {
+      color: var(--md-default-fg-color--light);
+      font-size: .8em;
+      font-weight: 700;
+      letter-spacing: -.01em;
+      margin: 1.25em 0;
+    }
       
       .tx-hero__image {
         padding: 2vh 20vw;
@@ -162,7 +170,7 @@
         <div class="tx-hero__content">
           <h1>Studio</h1>
           <h2>{{ config.site_description }}</h2>
-          <h5>Free - Open Source - Cross Platform</h5>
+          <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
           <br>
           <a
             href="{{ page.next_page.url | url }}"
