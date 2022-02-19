@@ -131,4 +131,16 @@ body {
 
 .md-typeset .md-button {
     color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+}
+
+.md-typeset .md-button:is(:focus,:hover) {
+    background-color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+    color: var(--md-default-bg-color)
+}
+
+.md-typeset .md-button--primary {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-default-bg-color)
 }
