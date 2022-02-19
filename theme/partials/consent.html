@@ -52,6 +52,10 @@
       </li>
     {% endfor %}
   </ul>
+
+  <button class="md-button md-button--primary">
+    Apply
+  </button>
 </div>
 
 <!-- Consent controls -->
@@ -60,9 +64,9 @@
     {{- lang.t("consent.manage") -}}
   </label>
   <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = false)">
-    Deny
+    Deny All
   </button>
-  <button class="md-button md-button--primary">
-    {{- lang.t("consent.accept") -}}
+  <button class="md-button md-button--primary" onclick="javascript:document.forms.consent.querySelectorAll('input[type=checkbox][name]').forEach(input => input.checked = true)">
+    Accept All
   </button>
 </div>
