@@ -4,8 +4,16 @@ Thank you for your interest in actively participating in the project's developme
 Please read the [Contributor Covenant Code of Conduct](https://github.com/sprocketc/repath-studio/blob/main/CODE_OF_CONDUCT.md) and the [Contributor License Agreement](contributor-license-agreement.md) first.
 
 ## How to Run
+
+Install the dependencies.
 ```
 npm install
+```
+Build and watch the project files . 
+```
 npm run dev
-node_modules/.bin/electron .
+```
+Run electron on a different terminal.
+```
+npm run electron
 ```
