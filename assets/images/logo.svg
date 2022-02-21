@@ -28,19 +28,23 @@
         </linearGradient>
     </defs>
     <g transform="translate(238.74 -254.84)">
-        <ellipse cx="-171.01" cy="323.22" rx="67.081" ry="67.081" fill-opacity=".22199" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-        <ellipse cx="-171.01" cy="321.92" rx="67.081" ry="67.081" fill="url(#linearGradient21631)" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-        <path d="m-198.54 283.08v86.35h19.546v-21.558h12.192c17.413 0 31.737-14.324 31.737-31.737 0-17.413-14.324-31.74-31.737-31.74-4.3101 0-8.4304.87896-12.192 2.464v-3.7792zm31.738 20.861c6.8493 0 12.191 5.3441 12.191 12.193 0 6.8493-5.3418 12.192-12.191 12.192h-12.192v-12.192c0-.21405.006-.4266.0155-.63759.31982-6.5405 5.541-11.556 12.176-11.556z" color="#000000" fill-opacity=".22199" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+        <ellipse cx="-171.01" cy="323.22" rx="67.081" opacity=".2" ry="67.081" fill="#000000">
+            <animate attributeName="opacity" values="0;.2" dur="3s" repeatCount="1"/>
+        </ellipse>
+        <ellipse cx="-171.01" cy="321.92" rx="67.081" ry="67.081" fill="url(#linearGradient21631)" stop-color="#000000">
+            <animate attributeName="opacity" values="0;1" dur="1s" repeatCount="1"/>
+        </ellipse>
+        <path d="m-198.54 283.08v86.35h19.546v-21.558h12.192c17.413 0 31.737-14.324 31.737-31.737 0-17.413-14.324-31.74-31.737-31.74-4.3101 0-8.4304.87896-12.192 2.464v-3.7792zm31.738 20.861c6.8493 0 12.191 5.3441 12.191 12.193 0 6.8493-5.3418 12.192-12.191 12.192h-12.192v-12.192c0-.21405.006-.4266.0155-.63759.31982-6.5405 5.541-11.556 12.176-11.556z" color="#000000" fill-opacity=".22199" stop-color="#000000"/>
         <g transform="matrix(.9773 0 0 .9773 -8.362 -3.1908)">
-            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477 7.0084 0 12.474 5.4684 12.474 12.477s-5.4658 12.475-12.474 12.475h-32.475v20h32.475c17.817 0 32.475-14.657 32.475-32.474s-14.657-32.477-32.475-32.477z" color="#000000" fill="#f00061" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477 7.0084 0 12.474 5.4684 12.474 12.477s-5.4658 12.475-12.474 12.475h-32.475v20h32.475c17.817 0 32.475-14.657 32.475-32.474s-14.657-32.477-32.475-32.477z" color="#000000" fill="#f00061" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477z" color="#000000" fill="url(#linearGradient14502)" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <path d="m-129.65 325.46c0-17.817-14.659-32.475-32.477-32.475v20c7.0084 0 12.477 5.4663 12.477 12.475z" color="#000000" fill="url(#linearGradient14794)" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <path d="m-162.12 357.94c17.817 0 32.475-14.659 32.475-32.477h-20c0 7.0084-5.4663 12.477-12.475 12.477z" color="#000000" fill="url(#linearGradient14943)" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <path d="m-194.6 291.64v88.355h20v-88.355z" color="#000000" fill="#d50057" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <rect x="-194.6" y="331.61" width="20" height="16.334" fill="url(#linearGradient12613)" opacity=".54664" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <rect transform="scale(-1)" x="174.6" y="-364.27" width="20" height="16.334" fill="url(#linearGradient12615)" opacity=".54664" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-            <rect x="-194.6" y="337.94" width="30.926" height="20" fill="url(#linearGradient12617)" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477 7.0084 0 12.474 5.4684 12.474 12.477s-5.4658 12.475-12.474 12.475h-32.475v20h32.475c17.817 0 32.475-14.657 32.475-32.474s-14.657-32.477-32.475-32.477z" color="#000000" fill="#f00061" stop-color="#000000"/>
+            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477 7.0084 0 12.474 5.4684 12.474 12.477s-5.4658 12.475-12.474 12.475h-32.475v20h32.475c17.817 0 32.475-14.657 32.475-32.474s-14.657-32.477-32.475-32.477z" color="#000000" fill="#f00061" stop-color="#000000"/>
+            <path d="m-162.13 292.99c-17.817 0-32.475 14.659-32.475 32.477h20c0-7.0084 5.4663-12.477 12.475-12.477z" color="#000000" fill="url(#linearGradient14502)" stop-color="#000000"/>
+            <path d="m-129.65 325.46c0-17.817-14.659-32.475-32.477-32.475v20c7.0084 0 12.477 5.4663 12.477 12.475z" color="#000000" fill="url(#linearGradient14794)" stop-color="#000000"/>
+            <path d="m-162.12 357.94c17.817 0 32.475-14.659 32.475-32.477h-20c0 7.0084-5.4663 12.477-12.475 12.477z" color="#000000" fill="url(#linearGradient14943)" stop-color="#000000"/>
+            <path d="m-194.6 291.64v88.355h20v-88.355z" color="#000000" fill="#d50057" stop-color="#000000"/>
+            <rect x="-194.6" y="331.61" width="20" height="16.334" fill="url(#linearGradient12613)" opacity=".54664" stop-color="#000000"/>
+            <rect transform="scale(-1)" x="174.6" y="-364.27" width="20" height="16.334" fill="url(#linearGradient12615)" opacity=".54664" stop-color="#000000"/>
+            <rect x="-194.6" y="337.94" width="30.926" height="20" fill="url(#linearGradient12617)" stop-color="#000000"/>
         </g>
     </g>
 </svg>
