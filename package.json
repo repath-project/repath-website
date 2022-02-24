@@ -4,7 +4,7 @@
   "repository": "https://github.com/sprocketc/repath-studio-website",
   "author": "Konstantinos Kaloutas",
   "homepage": "https://repath.studio",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "devDependencies": {
     "roadmap-generator": "0.0.3"
   }
