@@ -11,14 +11,14 @@ module.exports = {
   milestonesEndDate: '2024-11-01T00:00:00Z', // ISO formatted timestamp
 
   // Github repository to open open a Pull Request with the generated roadmap
-  targetRepo: "sprocketc/repath-studio-insiders",
+  targetRepo: "sprocketc/repath-studio",
 
   // List of projects that this roadmap covers
   projects: [
     {
       name: "RePath Studio",
       repos: [
-        "sprocketc/repath-studio-insiders",
+        "sprocketc/repath-studio",
       ],
     },
   ]
