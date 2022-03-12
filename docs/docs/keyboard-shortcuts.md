@@ -7,8 +7,8 @@
 | Redo | **CTRL + Y**, **CTRL + SHIFT + Z** |
 | New document | **CTRL + N** |
 | Toggle grid | **#** |
-| Move element up | **PAGE UP** |
-| Move element down| **PAGE DOWN** |
+| Raise elements | **PAGE UP** |
+| Lower element| **PAGE DOWN** |
 | Raise element to top | **HOME** |
 | Lower element to top | **END** |
 | Pan to active page and set zoom to default | **1** |
@@ -21,19 +21,20 @@
 | Toggle element tree | **CTRL + T** |
 | Toggle element properties | **CTRL + P** |
 | Toggle menu | **CTRL + L** |
-| Convert element to path | **CTRL + SHIFT + P** |
-| Copy element | **CTRL + C** |
-| Cut element | **CTRL + X** |
-| Paste element | **CTRL + V** |
+| Convert elements to path | **CTRL + SHIFT + P** |
+| Copy elements | **CTRL + C** |
+| Cut elements | **CTRL + X** |
+| Paste elements | **CTRL + V** |
+| Paste elements in place | **CTRL + ALT + V** |
 | Paste element styles | **CTRL + SHIFT + V** |
-| Duplicate element | **CTRL + D** |
-| Delete element | **DEL** , **SHIFT + DEL** , **BACKSPACE** |
+| Duplicate elements | **CTRL + D** |
+| Delete elements | **DEL** , **SHIFT + DEL** , **BACKSPACE** |
 | Select all elements | **CTRL + A** |
 | Deselect all elements | **CTRL+ SHIFT + A** |
-| Move element up | **&uarr;** |
-| Move element down | **&darr;** |
-| Move element left | **&larr;** |
-| Move element right | **&rarr;** |
+| Move elements up | **&uarr;** |
+| Move elements down | **&darr;** |
+| Move elements left | **&larr;** |
+| Move elements right | **&rarr;** |
 | Select tool | **C** |
 | Zoom tool | **Z** |
 | Circle tool | **C** |
