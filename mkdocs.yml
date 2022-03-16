@@ -4,8 +4,8 @@ site_author: Konstantinos Kaloutas
 site_url: https://repath.studio/
 copyright: 2022 © Konstantinos Kaloutas
 
-repo_url: https://github.com/sprocketc/repath-studio
-repo_name: sprocketc/repath-studio
+repo_url: https://github.com/re-path/studio
+repo_name: re-path/studio
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -59,7 +59,7 @@ extra:
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/repath.studio/
   - icon: fontawesome/brands/github
-    link: https://github.com/sprocketc/
+    link: https://github.com/re-path/
   consent:
     cookies:
       analytics:
