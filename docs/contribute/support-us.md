@@ -4,7 +4,7 @@ hide:
 ---
 # Support Us
 
-[:fontawesome-brands-github: Support us on GitHub](https://github.com/sponsors/sprocketc){: .md-button .md-button--primary }
+[![GitHub Sponsors](/assets/images/github-button.svg)](https://github.com/sponsors/sprocketc) 
 ## Monthly Tiers
 
 ### $5 a month
