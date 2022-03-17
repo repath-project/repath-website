@@ -64,6 +64,15 @@ body {
     animation: heart 1000ms infinite;
 }
 
+.support-link {
+    align-self: center;
+    flex: 0 1 30px;
+}
+
+.md-copyright {
+    flex: 1;
+}
+
 .md-header-nav__title {
     padding-left: 0;
 }
