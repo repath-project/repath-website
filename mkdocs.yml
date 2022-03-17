@@ -36,9 +36,9 @@ nav:
     - get-studio/build-from-source.md
   - Docs: 
     - docs/keyboard-shortcuts.md
-  - Contribute: 
-    - contribute/develop.md
+  - Contribute:
     - contribute/support-us.md
+    - contribute/develop.md
     - CLA: contribute/cla.md
   - Roadmap: 
     - roadmap/roadmap.md
