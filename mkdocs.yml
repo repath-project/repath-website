@@ -37,8 +37,8 @@ nav:
   - Docs: 
     - docs/keyboard-shortcuts.md
   - Contribute: 
-    - contribute/support-us.md
     - contribute/develop.md
+    - contribute/support-us.md
     - CLA: contribute/cla.md
   - Roadmap: 
     - roadmap/roadmap.md
