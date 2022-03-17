@@ -1,6 +1,6 @@
 # Support Us
 
-[:fontawesome-brands-github: Support us on GitHub](https://github.com/sponsors/sprocketc){ .md-button .md-button--primary }
+[:fontawesome-brands-github: Support us on GitHub](https://github.com/sponsors/sprocketc){: .md-button .md-button--primary }
 ## Monthly Tiers
 
 ### $5 a month
