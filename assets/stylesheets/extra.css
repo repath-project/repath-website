@@ -65,12 +65,15 @@ body {
 }
 
 .support-link {
+    text-align: center;
     align-self: center;
-    flex: 0 1 30px;
+    flex: 0 1 auto;
+    margin: 0 5px 0 15px;
 }
 
 .md-copyright {
     flex: 1;
+    white-space: nowrap;
 }
 
 .md-header-nav__title {
