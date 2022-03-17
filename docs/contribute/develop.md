@@ -17,3 +17,11 @@ Run electron on a different terminal.
 ```
 npm run electron
 ```
+
+## Useful shortcuts
+
+```
+Ctrl+Shift+I Toggle devtools
+Ctrl+H Toggle 10x
+Ctrl+R Reload app
+```
