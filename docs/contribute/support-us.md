@@ -1,8 +1,8 @@
 # Support Us
 
-[![ko-fi](assets/images/github-button.svg)](https://github.com/sponsors/sprocketc) 
+[![ko-fi](/assets/images/github-button.svg)](https://github.com/sponsors/sprocketc) 
 
-[![ko-fi](assets/images/kofi-button.svg)](https://ko-fi.com/B0B25KI3C)
+[![ko-fi](/assets/images/kofi-button.svg)](https://ko-fi.com/B0B25KI3C)
 ## Monthly Tiers
 
 ### $5 a month
