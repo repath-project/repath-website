@@ -1,3 +1,7 @@
+---
+hide:
+  - feedback
+---
 # Support Us
 
 [:fontawesome-brands-github: Support us on GitHub](https://github.com/sponsors/sprocketc){: .md-button .md-button--primary }
