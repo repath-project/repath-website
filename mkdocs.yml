@@ -35,7 +35,7 @@ nav:
     - get-studio/download.md
     - get-studio/build-from-source.md
   - Docs: 
-    - docs/keyboard-shortcuts.md
+    - docs/shortcuts.md
   - Contribute:
     - contribute/support-us.md
     - contribute/develop.md
