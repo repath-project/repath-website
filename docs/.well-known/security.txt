@@ -1,0 +1,6 @@
+Contact: mailto:contact@repath.studio
+Preferred-Languages: en
+Expires: 2023-03-26
+Encryption: https://repath.studio/pgp.asc
+Signature: https://repath.studio/.well-known/security.txt.sig
+Canonical: https://repath.studio/.well-known/security.txt
