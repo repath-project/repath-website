@@ -19,6 +19,7 @@ hide:
 ### $25 a month
 
 - Sponsor badge on your GitHub profile
+- Name and link on project website
 - **Access to pre-release code and builds of the project**
 
 ### $100 a month
