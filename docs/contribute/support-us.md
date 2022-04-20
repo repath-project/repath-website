@@ -14,17 +14,17 @@ hide:
 ### $10 a month
 
 - Sponsor badge on your GitHub profile
-- **Name and link on project website**
+- **Avatar and link to your github profile**
 
 ### $25 a month
 
 - Sponsor badge on your GitHub profile
-- Name and link on project website
-- **Access to pre-release code and builds of the project**
+- Avatar and link to your github profile
+- **Access to pre-release code and builds**
 
 ### $100 a month
 
 - Sponsor badge on your GitHub profile
-- Name and link on project website
-- Access to pre-release code and builds of the project
-- **Logo on project website**
+- Avatar and link to your github profile
+- Access to pre-release code and builds
+- **Logo and link to your website**
