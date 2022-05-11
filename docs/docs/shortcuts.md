@@ -36,6 +36,7 @@
 | Move elements left | **&larr;** |
 | Move elements right | **&rarr;** |
 | Select tool | **C** |
+| Edit tool | **E** |
 | Zoom tool | **Z** |
 | Circle tool | **C** |
 | Rect tool | **R** |
