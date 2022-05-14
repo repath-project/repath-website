@@ -56,6 +56,8 @@ extra:
     name: Email us
   - icon: custom/matrix 
     link: https://matrix.to/#/#repath.studio:matrix.org
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/yzjY6W6ame
   - icon: fontawesome/brands/twitter
     link: https://www.twitter.com/repath_studio/
   - icon: fontawesome/brands/instagram
