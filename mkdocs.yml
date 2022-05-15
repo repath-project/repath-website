@@ -31,20 +31,20 @@ theme:
   
 nav:
   - Home: index.md
-  - Get Studio: 
+  - Get Studio:
     - get-studio/download.md
     - get-studio/build-from-source.md
-  - Docs: 
-    - docs/getting-started.md 
+  - Docs:
+    - docs/getting-started.md
     - docs/shortcuts.md
   - Contribute:
     - contribute/support-us.md
     - contribute/develop.md
     - CLA: contribute/cla.md
-  - Roadmap: 
+  - Roadmap:
     - roadmap/roadmap.md
     - roadmap/changelog.md
-  - Blog: 
+  - Blog:
     - blog/posts.md
     - blog/tags.md
     
@@ -108,10 +108,6 @@ markdown_extensions:
 
 plugins:
   - tags
-  - social:
-      cards_color:
-          fill: "#1c1d26" 
-          text: "#FFFFFF"
   - blogging:
       dirs:
         - blog/articles
