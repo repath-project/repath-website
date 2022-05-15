@@ -88,8 +88,14 @@
       }
 
     .tx-hero__tagline {
+      margin: 0;
       color: var(--md-default-fg-color--light);
       font-weight: 700;
+    }
+
+    .tx-hero__features {
+      font-size: .8em;
+      margin-bottom: 2em !important;
     }
       
       .tx-hero__image {
@@ -163,9 +169,16 @@
         <!-- Hero content -->
         <div class="tx-hero__content">
           <h1>Studio</h1>
-          <h2>{{ config.site_description }}</h2>
           <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
-          <br>
+          <h2>{{ config.site_description }}</h2>
+
+          <ul class="tx-hero__features">
+            <li>Traditional and generative design tooling</li>
+            <li>SMIL animation support</li>
+            <li>Accessibility testing</li>
+            <li>Built-in version control system</li>
+          </ul>
+
           <a
             href="{{ page.next_page.url | url }}"
             title="{{ page.next_page.title | striptags }}"
@@ -179,7 +192,7 @@
             class="md-button"
           >
             Go to GitHub
-          </a>
+          </a>          
         </div>
       </div>
     </div>
