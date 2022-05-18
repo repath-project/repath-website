@@ -106,3 +106,4 @@ markdown_extensions:
 
 plugins:
   - tags
+  - search
