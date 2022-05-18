@@ -18,6 +18,7 @@ theme:
   - navigation.tabs
   - navigation.expand
   - navigation.indexes
+  - navigation.instant
   - announce.dismiss
   - navigation.top
   icon:
@@ -44,10 +45,7 @@ nav:
   - Roadmap:
     - roadmap/roadmap.md
     - roadmap/changelog.md
-  - Blog:
-    - blog/posts.md
-    - blog/tags.md
-    
+
 extra:
   generator: false
   social:
@@ -108,11 +106,3 @@ markdown_extensions:
 
 plugins:
   - tags
-  - blogging:
-      dirs:
-        - blog/articles
-      template: theme/overrides/custom-blog.html
-      features:
-        tags:
-          index_page: blog/tags.md
-
