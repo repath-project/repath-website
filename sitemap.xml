@@ -6,21 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://repath.studio/blog/posts/</loc>
-         <lastmod>2022-05-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://repath.studio/blog/tags/</loc>
-         <lastmod>2022-05-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://repath.studio/blog/articles/v0.1.0/</loc>
-         <lastmod>2022-05-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://repath.studio/contribute/cla/</loc>
          <lastmod>2022-05-18</lastmod>
          <changefreq>daily</changefreq>
