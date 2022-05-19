@@ -9,6 +9,9 @@ repo_name: re-path/studio
 
 extra_css:
   - assets/stylesheets/extra.css
+  
+extra_javascript:
+  - assets/javascripts/snap.svg-min.js
 
 theme:
   name: material
