@@ -21,7 +21,6 @@ theme:
   - navigation.tabs
   - navigation.expand
   - navigation.indexes
-  - navigation.instant
   - announce.dismiss
   - navigation.top
   icon:
