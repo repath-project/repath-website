@@ -2,13 +2,13 @@
 
 
 ```bash
-git clone git@github.com:re-path/studio.git
+git clone https://github.com/re-path/studio.git
 ```
 ```bash
-npm install
+cd studio
 ```
 ```bash
-npm run build
+npm install && npm run build
 ```
 ```bash
 npm run pack
