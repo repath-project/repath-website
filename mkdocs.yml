@@ -7,8 +7,6 @@ copyright: 2022 © Konstantinos Kaloutas
 repo_url: https://github.com/re-path/studio
 repo_name: re-path/studio
 
-edit_uri: "https://github.com/re-path/website/tree/main/docs"
-
 extra_css:
   - assets/stylesheets/extra.css
   
