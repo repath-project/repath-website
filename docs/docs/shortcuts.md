@@ -30,7 +30,13 @@
 | Duplicate elements | **CTRL + D** |
 | Delete elements | **DEL** , **SHIFT + DEL** , **BACKSPACE** |
 | Select all elements | **CTRL + A** |
-| Deselect all elements | **CTRL+ SHIFT + A** |
+| Deselect all elements | **ESC** |
+| Select same type | **CTRL+ SHIFT + A** |
+| Exclude | **CTRL + E** |
+| Unite | **CTRL + U** |
+| Intersect | **CTRL + I** |
+| Subtract | **CTRL + S** |
+| Divide | **CTRL + /** |
 | Move elements up | **&uarr;** |
 | Move elements down | **&darr;** |
 | Move elements left | **&larr;** |
