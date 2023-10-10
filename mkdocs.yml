@@ -24,6 +24,7 @@ theme:
   - announce.dismiss
   - navigation.top
   - navigation.instant
+  - navigation.footer
   icon:
     repo: fontawesome/brands/git-alt
   logo: assets/images/logo.svg
