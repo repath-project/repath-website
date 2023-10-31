@@ -2,7 +2,7 @@
 
 module.exports = {
   // Name of the organization or project this roadmap is generated for
-  organization: 'RePath Studio',
+  organization: 'Repath Studio',
 
   // Include open and closed milestones where due date is after milestonesStartDate
   milestonesStartDate: '2020-01-01T00:00:00Z', // ISO formatted timestamp
@@ -16,7 +16,7 @@ module.exports = {
   // List of projects that this roadmap covers
   projects: [
     {
-      name: "RePath Studio",
+      name: "Repath Studio",
       repos: [
         "re-path/studio",
       ],

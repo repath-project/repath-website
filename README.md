@@ -1,4 +1,4 @@
-# RePath Studio Website
+# Repath Studio Website
 
 ![Build Website](https://github.com/re-path/website/actions/workflows/website.yml/badge.svg)
 
