@@ -27,8 +27,6 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: npm install
-      # - run: node ./node_modules/roadmap-generator/index.js ./roadmap.conf.js ${{ secrets.PERSONAL_ACCESS_TOKEN }} -gs > ./docs/roadmap/roadmap.md
       - run: curl https://raw.githubusercontent.com/re-path/studio/main/CHANGELOG.md > ./docs/roadmap/changelog.md
       - run: pip install pip install mkdocs-material=="9.4.5"
       - run: mkdocs gh-deploy --clean --force
