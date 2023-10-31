@@ -40,7 +40,6 @@ nav:
     - get-studio/download.md
     - get-studio/build-from-source.md
   - Docs:
-    - docs/getting-started.md
     - docs/shortcuts.md
   - Contribute:
     - contribute/develop.md
