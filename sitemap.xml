@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://repath.studio/contribute/CONTRIBUTING/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://repath.studio/contribute/cla/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
@@ -27,11 +32,6 @@
     </url>
     <url>
          <loc>https://repath.studio/get-studio/download/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://repath.studio/roadmap/CONTRIBUTING/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
