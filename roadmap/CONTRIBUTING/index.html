@@ -12,13 +12,9 @@
         <meta name="author" content="Konstantinos Kaloutas">
       
       
-        <link rel="canonical" href="https://repath.studio/contribute/develop/">
+        <link rel="canonical" href="https://repath.studio/roadmap/CONTRIBUTING/">
       
       
-        <link rel="prev" href="../../docs/shortcuts/">
-      
-      
-        <link rel="next" href="../cla/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +22,7 @@
     
     
       
-        <title>Develop - repath</title>
+        <title>Contributing - repath</title>
       
     
     
@@ -73,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#develop" class="md-skip">
+        <a href="#contributing" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Develop
+              Contributing
             
           </span>
         </div>
@@ -241,13 +237,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../contribute/CONTRIBUTING.md" class="md-tabs__link">
           
   
     
@@ -265,7 +259,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../roadmap/changelog/" class="md-tabs__link">
+      <a href="../changelog/" class="md-tabs__link">
         
   
     
@@ -510,8 +504,6 @@
       
   
   
-    
-  
   
     
     
@@ -527,12 +519,14 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -546,7 +540,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Contribute
@@ -557,71 +551,17 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Develop
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../contribute/CONTRIBUTING.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Develop
+    None
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-run" class="md-nav__link">
-    How to Run
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-shortcuts" class="md-nav__link">
-    Useful shortcuts
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -633,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cla/" class="md-nav__link">
+      <a href="../../contribute/cla/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -660,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../roadmap/changelog/" class="md-nav__link">
+      <a href="../changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -700,16 +640,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-run" class="md-nav__link">
-    How to Run
+  <a href="#app-structure" class="md-nav__link">
+    App structure
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#useful-shortcuts" class="md-nav__link">
-    Useful shortcuts
+  <a href="#how-to-build-it-locally" class="md-nav__link">
+    How to build it locally
   </a>
+  
+    <nav class="md-nav" aria-label="How to build it locally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    System Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-development-shortcuts" class="md-nav__link">
+    Useful development shortcuts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -731,20 +691,50 @@
   
 
 
-<h1 id="develop">Develop<a class="headerlink" href="#develop" title="Permanent link">&para;</a></h1>
+<h1 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h1>
 <p>Thank you for your interest in actively participating in the project's development!
-Please read the <a href="https://github.com/re-path/studio/blob/main/CODE_OF_CONDUCT.md">Contributor Covenant Code of Conduct</a> and the <a href="../cla/">Contributor License Agreement</a> first.</p>
-<h2 id="how-to-run">How to Run<a class="headerlink" href="#how-to-run" title="Permanent link">&para;</a></h2>
-<p>Install the dependencies.
-<div class="highlight"><pre><span></span><code>npm install
+Please read the <a href="https://github.com/re-path/studio/blob/main/CODE_OF_CONDUCT.md">Contributor Covenant Code of Conduct</a> 
+and the <a href="cla.md">Contributor License Agreement</a> first.</p>
+<p>The project is based on <a href="https://github.com/day8/re-frame/">re-frame</a>, 
+a framework for building Modern Web Apps in ClojureScript.
+You should probably take a look at their <a href="https://day8.github.io/re-frame/re-frame/">exceptional documentation</a>.</p>
+<h2 id="app-structure">App structure<a class="headerlink" href="#app-structure" title="Permanent link">&para;</a></h2>
+<p>Main structure</p>
+<p>src
+├── renderer/     &lt;--- <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-renderer-process">renderer process</a>
+├── main.cljs     &lt;--- <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-main-process">main process</a>
+└── preload.cljs  &lt;--- <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts">preload script</a></p>
+<p>We are trying to split our code under renderer into relatively independent modules, 
+following [re-frame's app structure suggestions](https://day8.github.io/re-frame/App-Structure/
+with some minor additions. </p>
+<p>module
+├── core.cljs     &lt;--- entry point
+├── db.cljs       &lt;--- schema, validation
+├── views.cljs    &lt;--- reagent views
+├── events.cljs   &lt;--- event handlers
+├── effects.cljs  &lt;--- effectful handlers
+├── subs.cljs     &lt;--- subscription handlers
+├── handlers.cljs &lt;--- helper functions for db transformations
+└── styles.css    &lt;--- CSS styles</p>
+<h2 id="how-to-build-it-locally">How to build it locally<a class="headerlink" href="#how-to-build-it-locally" title="Permanent link">&para;</a></h2>
+<h3 id="system-requirements">System Requirements<a class="headerlink" href="#system-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://nodejs.org/">node.js</a></li>
+<li>Java SDK (8+) <a href="https://www.oracle.com/java/technologies/downloads/">OpenJDK</a> or <a href="https://nodejs.org/">Oracle</a></li>
+</ul>
+<p>Clone the project.
+<div class="highlight"><pre><span></span><code>git clone https://github.com/re-path/studio.git
 </code></pre></div>
-Build and watch the project files . 
-<div class="highlight"><pre><span></span><code>npm run dev
+Go into the directory.
+<div class="highlight"><pre><span></span><code>cd studio
+</code></pre></div>
+Install the dependencies, build the app and watch the project files.
+<div class="highlight"><pre><span></span><code>npm install &amp;&amp; npm run dev
 </code></pre></div>
 Run electron on a different terminal.
 <div class="highlight"><pre><span></span><code>npm run electron
 </code></pre></div></p>
-<h2 id="useful-shortcuts">Useful shortcuts<a class="headerlink" href="#useful-shortcuts" title="Permanent link">&para;</a></h2>
+<h3 id="useful-development-shortcuts">Useful development shortcuts<a class="headerlink" href="#useful-development-shortcuts" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Ctrl+Shift+I Toggle devtools
 Ctrl+H Toggle 10x
 Ctrl+R Reload app
@@ -771,44 +761,6 @@ Ctrl+R Reload app
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../../docs/shortcuts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Shortcuts">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Shortcuts
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../cla/" class="md-footer__link md-footer__link--next" aria-label="Next: CLA">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                CLA
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
