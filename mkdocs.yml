@@ -42,7 +42,7 @@ nav:
   - Docs:
     - docs/shortcuts.md
   - Contribute:
-    - contribute/develop.md
+    - contribute/CONTRIBUTING.md
     - CLA: contribute/cla.md
   - Changelog: roadmap/changelog.md
 

@@ -28,6 +28,7 @@ jobs:
           python-version: 3.x
 
       - run: curl https://raw.githubusercontent.com/re-path/studio/main/CHANGELOG.md > ./docs/roadmap/changelog.md
+      - run: curl https://raw.githubusercontent.com/re-path/studio/main/CONTRIBUTING.md > ./docs/roadmap/CONTRIBUTING.md
       - run: pip install pip install mkdocs-material=="9.4.5"
       - run: mkdocs gh-deploy --clean --force
 
