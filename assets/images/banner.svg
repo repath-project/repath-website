@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg">
+<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <filter id="filter3891" x="-.14884" y="-.14884" width="1.2977" height="1.2977" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="2.1668024"/>
   </filter>
+  <linearGradient id="linearGradient4" x1="67.735" x2="67.735" y1="131.41" y2="4.0578" gradientTransform="matrix(.27435 0 0 .27435 66.702 13.442)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ce1760" offset="0"/>
+   <stop stop-color="#e93976" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient9-9-6" x1="1487.8" x2="1629.5" y1="403.31" y2="403.31" gradientTransform="matrix(.063295 0 0 .063295 -16.865 6.4753)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#c0c0c0" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
  </defs>
- <rect x="-.00036994" width="170.57" height="97.517" rx="0" ry="0" fill="#fff" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <rect x="67.815" y="16.078" width="34.94" height="34.94" rx="17.47" ry="17.47" fill="#660d29" fill-opacity=".35773" filter="url(#filter3891)" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <rect x="-1.9073e-6" width="170.57" height="97.517" rx="0" ry="0" fill="#fff" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <rect x="67.815" y="16.078" width="34.94" height="34.94" rx="7.5452" ry="7.5452" fill="#660d29" fill-opacity=".35773" filter="url(#filter3891)" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <text x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-size="10.583px" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal">Repath Studio</tspan></text>
  <text x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-size="7.0819px" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="16.373896" y="81.614952"><tspan x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal">Scalable Vector Graphics Manipulation</tspan></tspan></text>
- <rect x="67.815" y="14.491" width="34.94" height="34.94" rx="17.47" ry="17.47" fill="#e93976" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <path d="m86.21 23.303c-1.4294 0-2.7822.35436-3.9755.97858-.5064-.61911-1.264-.97822-2.0638-.97832-1.4728-7e-6-2.6667 1.1939-2.6666 2.6666l.04798 14.65h8.658c4.7501 0 8.6581-3.9078 8.6581-8.6578s-3.9078-8.6585-8.6581-8.6585zm0 5.3322c1.8685 0 3.3256 1.4578 3.3256 3.3263s-1.4572 3.3259-3.3256 3.3259h-3.3245v-3.3764c.02613-1.844 1.473-3.2758 3.3245-3.2758z" fill="#fff" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <g>
+  <rect x="67.815" y="14.556" width="34.94" height="34.94" rx="6.0856" ry="6.0856" fill="url(#linearGradient4)" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  <path d="m67.815 42.196v1.214c0 3.3714 2.7142 6.0855 6.0857 6.0855h22.769c3.3714 0 6.0855-2.7141 6.0855-6.0855v-1.214c0 3.3714-2.7141 6.0855-6.0855 6.0855h-22.769c-3.3714 0-6.0857-2.7141-6.0857-6.0855z" fill-opacity=".096365" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  <path d="m86.208 23.522c-1.4189 0.0071-2.8157 0.35338-4.0736 1.0098-0.51804-0.61926-1.2831-0.97825-2.0905-0.98086-1.5107 6.3e-5 -2.7355 1.224-2.7368 2.7347v15.038h5.4634v-1.37e-4h0.010533v-0.70315c1.0846 0.4587 2.2494 0.69797 3.4271 0.70329 2.5255 0 4.8054-1.0518 6.4254-2.7413 1.5334-1.599 2.4757-3.7693 2.4757-6.1596v-2.72e-4c-7.1e-5 -4.9159-3.9854-8.901-8.9013-8.901zm1.38e-4 5.4637c1.8984 0 3.4374 1.5389 3.4375 3.4373v1.36e-4c0 4.4e-5 7e-6 9.1e-5 0 1.36e-4 -0.0029 0.03069-0.0064 0.06137-0.01043 0.09198h0.0057c-0.04934 1.8554-1.5655 3.3452-3.4328 3.3452-1.8291 0-3.3202-1.4297-3.4271-3.2319v-0.29752c0.0498-1.8584 1.5681-3.3404 3.4271-3.3453z" fill-opacity=".10124" opacity=".3999" stop-color="#000000" stroke-width=".26446" style="-inkscape-stroke:none;font-variation-settings:normal;mix-blend-mode:normal"/>
+ </g>
+ <g>
+  <path d="m77.307 32.003 0.0012 0.01447h-0.0012v8.8866h5.4635v-0.70737c1.0875 0.46158 2.2562 0.70204 3.4376 0.70737 2.5255 0 4.8054-1.0518 6.4254-2.7412 1.5334-1.5991 2.4757-3.7694 2.4757-6.1599h-5.4636c0 1.8985-1.539 3.4375-3.4375 3.4375-1.8985 0-3.4375-1.539-3.4375-3.4375z" fill="url(#linearGradient9-9-6)" stroke-width=".063295" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  <path d="m86.208 23.102c-1.4189 0.0071-2.8156 0.35328-4.0736 1.0097-0.51804-0.61926-1.2831-0.97821-2.0904-0.98082-1.5107 6.3e-5 -2.7357 1.2241-2.7369 2.7348v15.038h5.474v-8.9929c0.0498-1.8584 1.568-3.3404 3.427-3.3454 1.8985 0 3.4375 1.539 3.4375 3.4375-0.0029 0.03075-0.0064 0.06145-0.01043 0.0921h5.4675c0.0021-0.03069 0.0043-0.0614 0.0064-0.0921 0-4.916-3.9852-8.9012-8.9012-8.9012z" fill="#fff" stop-color="#000000" stroke-width=".063295" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+  <rect x="98.254" y="10.825" width=".29915" height=".061611" rx="5.8662" ry=".061611" fill="#6b0c2d" opacity=".2125" stroke-width=".26446" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ </g>
 </svg>
