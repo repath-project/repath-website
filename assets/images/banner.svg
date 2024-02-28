@@ -4,12 +4,12 @@
   <filter id="filter3891" x="-.14884" y="-.14884" width="1.2977" height="1.2977" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="2.1668024"/>
   </filter>
-  <linearGradient id="linearGradient4-0" x1="67.735" x2="67.735" y1="131.41" y2="4.0578" gradientTransform="matrix(.27442 0 0 .27442 66.697 13.438)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="linearGradient4" x1="67.735" x2="67.735" y1="131.41" y2="4.0578" gradientTransform="matrix(.27443 0 0 .27443 66.697 13.437)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#d01761" offset="0"/>
    <stop stop-color="#e93976" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient8" x1="1516.3" x2="1624.9" y1="732.63" y2="732.63" gradientTransform="translate(405.48 -253.79)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#d2d2d2" offset="0"/>
+  <linearGradient id="linearGradient11" x1="1516.3" x2="1570.6" y1="732.63" y2="732.63" gradientTransform="matrix(.072016 0 0 .072016 -27.676 -20.735)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".14895" offset="0"/>
    <stop stop-color="#fff" stop-opacity="0" offset="1"/>
   </linearGradient>
  </defs>
@@ -17,11 +17,7 @@
  <rect x="67.815" y="16.078" width="34.94" height="34.94" rx="7.5452" ry="7.5452" fill="#660d29" fill-opacity=".35773" filter="url(#filter3891)" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <text x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-size="10.583px" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal">Repath Studio</tspan></text>
  <text x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-size="7.0819px" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="16.373896" y="81.614952"><tspan x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal">Scalable Vector Graphics Manipulation</tspan></tspan></text>
- <rect x="67.811" y="14.551" width="34.95" height="34.95" rx="6.0871" ry="6.0871" fill="url(#linearGradient4-0)" stop-color="#000000" stroke-width=".068227" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <rect x="98.254" y="10.825" width=".29915" height=".061611" rx="5.8662" ry=".061611" fill="#6b0c2d" opacity=".2125" stroke-width=".26446" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <path d="m67.811 42.198v1.2143c0 3.3722 2.7149 6.0871 6.0873 6.0871h22.775c3.3722 0 6.0871-2.7149 6.0871-6.0871v-1.2143c0 3.3722-2.7149 6.0871-6.0871 6.0871h-22.775c-3.3722 0-6.0873-2.7149-6.0873-6.0871z" fill="#040002" fill-opacity=".15104" stop-color="#000000" stroke-width=".25798" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <g transform="matrix(.064343 0 0 .064343 -41.716 1.2161)">
-  <path d="m1976.1 338.21a140.63 140.63 0 0 0-140.63 140.63 140.63 140.63 0 0 0 0.016 0.22852h-0.016v140.4h86.32v-11.176a140.63 140.63 0 0 0 54.309 11.176 140.63 140.63 0 0 0 140.63-140.63 140.63 140.63 0 0 0-140.63-140.63zm0 86.32a54.309 54.309 0 0 1 54.309 54.309 54.309 54.309 0 0 1-54.309 54.309 54.309 54.309 0 0 1-54.309-54.309 54.309 54.309 0 0 1 54.309-54.309z" fill="#fff" style="-inkscape-stroke:none;font-variation-settings:normal"/>
-  <path d="m1921.8 478.83v129.46a140.63 140.63 0 0 0 54.31 11.176 140.63 140.63 0 0 0 140.63-140.63 140.63 140.63 0 0 0 0-2e-3h-86.32a54.309 54.309 0 0 1 0 2e-3 54.309 54.309 0 0 1-54.309 54.309 54.309 54.309 0 0 1-54.308-54.309 54.309 54.309 0 0 1 0-2e-3z" fill="url(#linearGradient8)" stop-color="#000000" stroke-width="3.6859" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- </g>
+ <rect x="67.811" y="14.551" width="34.95" height="34.95" rx="6.0872" ry="6.0872" fill="url(#linearGradient4)" stop-color="#000000" stroke-width=".068228" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <path d="m85.434 21.899a10.128 10.128 0 0 0-10.128 10.128 10.128 10.128 0 0 0 0.0011 0.01646h-0.0011v10.111h6.2164v-0.80486a10.128 10.128 0 0 0 3.9111 0.80486 10.128 10.128 0 0 0 10.128-10.128 10.128 10.128 0 0 0-10.128-10.128zm0 6.2164a3.9111 3.9111 0 0 1 3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111-3.9111 3.9111 3.9111 0 0 1 3.9111-3.9111z" fill="#fff" stroke-width=".072016" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <path d="m81.524 32.026v9.3232a10.128 10.128 0 0 0 3.9112 0.80485 10.128 10.128 0 0 0 10.128-10.128 10.128 10.128 0 0 0 0-1.28e-4h-6.2164a3.9111 3.9111 0 0 1 0 1.28e-4 3.9111 3.9111 0 0 1-3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111-3.9111 3.9111 3.9111 0 0 1 0-1.28e-4z" fill="url(#linearGradient11)" stop-color="#000000" stroke-width=".26544" style="-inkscape-stroke:none;font-variation-settings:normal"/>
 </svg>
