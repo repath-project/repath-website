@@ -11,5 +11,5 @@ cd studio
 npm install && npm run build
 ```
 ```bash
-npm run pack
+npm run dist
 ```
