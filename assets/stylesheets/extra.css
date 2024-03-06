@@ -29,7 +29,6 @@
 }
 
 body {
-    --md-typeset-a-color: var(--md-primary-fg-color--light) !important;
     font-family: 'Sora', sans-serif;
 }
 
