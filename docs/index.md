@@ -22,7 +22,7 @@ hide:
 
     ![Image title](../assets/images/repl.png){ width="100%" }
 
-    Evaluate [Clojure](https://clojure.org/) and Javascript code on on the embedded REPL to generate shapes, or even extend the editor on the fly.
+    Evaluate [Clojure](https://clojure.org/) and Javascript code ond the embedded REPL to generate shapes, or even extend the editor on the fly.
 
 
 -   :material-animation-play:{ .lg .middle } __SMIL animations__
