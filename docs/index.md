@@ -43,7 +43,7 @@ hide:
 
     ---
 
-    Built-in tools that help you evaluate the accessibility of you creations.
+    Built-in tools that help you evaluate the accessibility of your creations.
 
 -   :material-source-commit:{ .lg .middle } __Open Source__
 
