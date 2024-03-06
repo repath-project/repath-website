@@ -2,7 +2,7 @@ site_name: repath
 site_description: Scalable Vector Graphics Manipulation
 site_author: Konstantinos Kaloutas
 site_url: https://repath.studio/
-copyright: 2023 © Repath Studio
+copyright: 2024 © Repath Studio
 
 repo_url: https://github.com/re-path/studio
 repo_name: re-path/studio
@@ -26,10 +26,9 @@ theme:
   - navigation.instant
   - navigation.footer
   icon:
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
   logo: assets/images/logo.svg
   palette:
-    scheme: slate
     primary: pink-700
     accent: pink
   font: false
@@ -66,15 +65,21 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences 
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
 
 plugins:
-  - tags
   - search
+  - glightbox
+  - social:
+      cards_layout_options:
+        font_family: Sora
+        background_color: pink

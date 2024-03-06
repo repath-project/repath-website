@@ -31,36 +31,13 @@
       position: initial;
     }
 
-    .md-main {
-      flex: 0;
-    } 
-
-    /* Remove spacing, as we cannot hide it completely */
-    .md-main__inner {
-      margin: 0;
-      height: 0;
-    }
-
-    /* Hide main content for now */
-    .md-content {
-      display: none;
-    }
-
     .tx-container {  
-        background: url("/assets/images/bg.svg") no-repeat bottom,
-                  linear-gradient(to bottom,var(--md-primary-fg-color),rgb(177, 141, 96) 99%,var(--md-footer-bg-color) 99%);
-        flex: 1;
-        position: relative;
+      background: linear-gradient(to bottom,var(--md-primary-fg-color),#75164f 99%);
     }
 
     .tx-hero {
       display: flex;
       flex-wrap: wrap;
-      padding-bottom: 20px;
-    }
-
-    .md-grid {
-      position: relative;
     }
 
     .tx-hero h1 {
@@ -71,7 +48,7 @@
     }
 
     .tx-hero h2 {
-      margin: 0;
+      margin-top: 0;
       color: white;
       font-size: 1.1em;
     }
@@ -95,26 +72,32 @@
 
     .tx-hero__tagline {
       margin: 0;
-      color: var(--md-default-fg-color--light);
+      color: var(--md-footer-fg-color--lighter);
       font-weight: 700;
-    }
-
-    .tx-hero__features {
-      font-size: .8em;
-      margin-bottom: 2em !important;
     }
 
     .tx-hero__warning {
       margin-top: 0.75em !important;
+      color: var(--md-footer-fg-color--lighter);
+      font-size: small;
     }
       
-      .tx-hero__image {
-        padding: 2vh 20vw;
-      }
+    .tx-hero__image {
+      padding: 2vh 20vw;
+    }
 
-      .tx-hero .md-button {
-        padding: .425em 1.6em;
-      }
+    .tx-hero .md-button {
+      padding: .425em 1.6em;
+    }
+
+    .tx-hero .md-button:hover,
+    .tx-hero .md-button:focus {
+      color: var(--md-default-fg-color);
+    }
+
+    .tx-hero  .md-button--primary {
+      color: var(--md-default-fg-color);
+    }
 
     /* Hide table of contents */
     @media screen and (min-width: 60em) {
@@ -126,24 +109,21 @@
         flex: 0 0 45%;
       }
 
-      .tx-hero {
-        min-height: 55vh;
-      }
-
       .tx-hero__image {
         order: 1;
         flex: 0 0 55%;
-        padding: 15.5vh 18px 15.5vh 50px;
+        padding: 100px 18px 50px 50px;
       }
 
       .tx-hero h1 {
         margin-top: 70px;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
         font-weight: 800;
         font-size: 70px;
       }
 
       .tx-hero h2 {
+        margin-bottom: 1em;
         font-size: 1.5625em;
       }
 
@@ -163,6 +143,26 @@
         display: none;
       }
     }
+
+    .showcase {
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .showcase-link {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .showcase-link img {
+      transition: all .3s;
+      box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
+    }
+
+    .showcase-link img:hover {
+      box-shadow: 0 5px 25px rgba(0,0,0, 0.7);
+    }
   </style>
 
   <!-- Hero for landing page -->
@@ -180,12 +180,6 @@
           <h1>Studio</h1>
           <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
           <h2>{{ config.site_description }}</h2>
-
-          <ul class="tx-hero__features">
-            <li>Interactive REPL - a shell which allows you to evaluate clojure code to generate shapes or even extend the editor on the fly.</li>
-            <li>SMIL animations - an extension of SVG allowing to animating SVG elements.</li>
-            <li>Built-in version control - a history tree of all user actions and never lose your undo/redo stack.</li>
-          </ul>
 
           <a
             href="{{ page.next_page.url | url }}"
@@ -214,9 +208,23 @@
 {% endblock %}
 
 <!-- Content -->
-{% block content %}{% endblock %}
+{% block content %}
+  {{ page.content }}
+{% endblock %}
 
 <!-- Application footer -->
 {% block footer %}
+
+<div class="md-footer" style="background: #1e2129;">
+  <div class="md-footer__inner md-grid"> 
+    <section class="showcase">
+      <a class="showcase-link glightbox" href="./assets/images/mountain.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/mountain.png" width="200"></a>
+      <a class="showcase-link glightbox" href="./assets/images/sequence.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/sequence.png" width="200"></a>
+      <a class="showcase-link glightbox" href="./assets/images/silk.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/silk.png" width="200"></a>
+      <a class="showcase-link glightbox" href="./assets/images/leaves.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/leaves.png" width="200"></a>
+    </section>
+  </div>
+</div>
+
 {% include "partials/footer.html" %}
 {% endblock %}

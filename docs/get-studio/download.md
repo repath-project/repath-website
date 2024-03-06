@@ -1,13 +1,8 @@
----
-hide:
-  - feedback
----
 # Download
 
-!!! danger
+!!! warning
 
-    This application is a proof of concept.
-    It is not ready to be used for any serious design work.
+    This project is in alpha stage!
 
 Select your operating system
 
