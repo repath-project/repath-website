@@ -83,7 +83,7 @@
     }
       
     .tx-hero__image {
-      padding: 2vh 20vw;
+      padding: 2vh 18px;
     }
 
     .tx-hero .md-button {
@@ -97,6 +97,27 @@
 
     .tx-hero  .md-button--primary {
       color: var(--md-default-fg-color);
+    }
+
+    .showcase {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .showcase-link {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .showcase-link img {
+      width: 120px;
+      transition: all .3s;
+      box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
+    }
+
+    .showcase-link img:hover {
+      box-shadow: 0 5px 25px rgba(0,0,0, 0.7);
     }
 
     /* Hide table of contents */
@@ -135,6 +156,14 @@
       .tx-hero .md-button {
         padding: .625em 2em;
       }
+
+      .showcase {
+        padding: 2rem;
+      }
+
+      .showcase-link img {
+        width: 200px;
+      }
     }
 
     /* Hide navigation */
@@ -143,26 +172,7 @@
         display: none;
       }
     }
-
-    .showcase {
-      width: 100%;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .showcase-link {
-      display: inline-block;
-      margin: 10px;
-    }
-
-    .showcase-link img {
-      transition: all .3s;
-      box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
-    }
-
-    .showcase-link img:hover {
-      box-shadow: 0 5px 25px rgba(0,0,0, 0.7);
-    }
+=
   </style>
 
   <!-- Hero for landing page -->
@@ -218,10 +228,10 @@
 <div class="md-footer" style="background: #1e2129;">
   <div class="md-footer__inner md-grid"> 
     <section class="showcase">
-      <a class="showcase-link glightbox" href="./assets/images/mountain.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/mountain.png" width="200"></a>
-      <a class="showcase-link glightbox" href="./assets/images/sequence.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/sequence.png" width="200"></a>
-      <a class="showcase-link glightbox" href="./assets/images/silk.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/silk.png" width="200"></a>
-      <a class="showcase-link glightbox" href="./assets/images/leaves.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/leaves.png" width="200"></a>
+      <a class="showcase-link glightbox" href="./assets/images/mountain.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/mountain.png"></a>
+      <a class="showcase-link glightbox" href="./assets/images/sequence.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/sequence.png"></a>
+      <a class="showcase-link glightbox" href="./assets/images/silk.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/silk.png"></a>
+      <a class="showcase-link glightbox" href="./assets/images/leaves.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="showcase"><img alt="Image title" src="./assets/images/leaves.png"></a>
     </section>
   </div>
 </div>
