@@ -1,6 +1,6 @@
 ---
 template: overrides/home.html
-title: SVG manipulation
+title: Home
 hide:
   - navigation
   - toc
