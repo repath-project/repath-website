@@ -22,7 +22,6 @@ theme:
   - navigation.expand
   - navigation.indexes
   - announce.dismiss
-  - navigation.top
   - navigation.instant
   - navigation.footer
   icon:
