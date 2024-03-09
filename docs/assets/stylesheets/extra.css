@@ -81,7 +81,7 @@ body {
 
 .md-header__title {
     margin-left: .4rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     transition: all .3s;
 }
 
@@ -89,15 +89,6 @@ body {
     height: 2.4rem;
     width: 2.4rem;
     transition: all .3s;
-}
-
-.md-header[data-md-state="shadow"] .md-header__button.md-logo img {
-    height: 1.2rem;
-    width: 1.2rem;
-}
-
-.md-header[data-md-state="shadow"] .md-header__title {
-    font-size: .9rem;
 }
 
 .md-content__button.md-icon {
