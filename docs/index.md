@@ -12,7 +12,7 @@ hide:
    
     ---
 
-    ![History](../assets/images/history.png){ width="100%" }
+    ![History](./assets/images/history.png){ width="100%" }
 
     Maintain all user actions and travel through time, without ever losing your undo/redo stack.
 
@@ -20,7 +20,7 @@ hide:
 
     ---
 
-    ![Repl](../assets/images/repl.png){ width="100%" }
+    ![Repl](./assets/images/repl.png){ width="100%" }
 
     Evaluate [Clojure](https://clojure.org/) and Javascript code on the embedded REPL to generate shapes, or even extend the editor on the fly.
 
@@ -29,7 +29,7 @@ hide:
    
     ---
 
-    ![Animations](../assets/images/animations.png){ width="100%" }
+    ![Animations](./assets/images/animations.png){ width="100%" }
 
     Create and edit [SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL) animations, an extension of SVG allowing to animating SVG elements.
 

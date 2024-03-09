@@ -1,4 +1,4 @@
-site_name: repath
+site_name: Repath
 site_description: Scalable Vector Graphics Manipulation
 site_author: Konstantinos Kaloutas
 site_url: https://repath.studio/
@@ -70,7 +70,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
