@@ -1,6 +1,6 @@
 ---
 template: overrides/home.html
-title: Home
+title: Studio
 hide:
   - navigation
   - toc
