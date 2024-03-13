@@ -49,6 +49,6 @@ hide:
 
     --- 
 
-    Distributed under the terms of the [AGPL-3.0](https://github.com/re-path/studio?tab=AGPL-3.0-1-ov-file#readme) license.
+    Distributed under the terms of the [AGPL-3.0](https://github.com/re-path/studio/blob/main/LICENSE) license.
 
 </div>
