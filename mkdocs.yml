@@ -76,6 +76,6 @@ plugins:
   - search
   - glightbox
   - social:
-      cards_font: Sora
       cards_layout_options:
+        font_family: Sora
         background_color: black
