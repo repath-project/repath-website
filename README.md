@@ -1,6 +1,6 @@
 # Repath Studio Website
 
-![Build Website](https://github.com/re-path/website/actions/workflows/website.yml/badge.svg)
+![Build Website](https://github.com/repath-project/repath-website/actions/workflows/website.yml/badge.svg)
 
 ## Install
 

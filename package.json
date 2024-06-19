@@ -1,7 +1,7 @@
 {
   "name": "repath-studio-website",
   "description": "Repath Studio Website",
-  "repository": "https://github.com/re-path/website",
+  "repository": "https://github.com/repath-project/repath-website",
   "author": "Konstantinos Kaloutas",
   "homepage": "https://repath.studio",
   "version": "1.0.0"

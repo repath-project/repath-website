@@ -9,7 +9,7 @@ hide:
 <div class="grid cards" style="margin-bottom: 100px;" markdown>
 
 -   :fontawesome-solid-code-branch:{ .lg .middle } __History tree__
-   
+
     ---
 
     ![History](./assets/images/history.png){ width="100%" }
@@ -26,7 +26,7 @@ hide:
 
 
 -   :material-animation-play:{ .lg .middle } __SMIL animations__
-   
+
     ---
 
     ![Animations](./assets/images/animations.png){ width="100%" }
@@ -38,7 +38,7 @@ hide:
     ---
 
     Educational-driven exposing the specification and rendering on an [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) canvas.
-    
+
 -   :material-human:{ .lg .middle } __Accessibility testing__
 
     ---
@@ -47,8 +47,8 @@ hide:
 
 -   :material-source-commit:{ .lg .middle } __Open Source__
 
-    --- 
+    ---
 
-    Distributed under the terms of the [AGPL-3.0](https://github.com/re-path/studio/blob/main/LICENSE) license.
+    Distributed under the terms of the [AGPL-3.0](https://github.com/repath-project/repath-studio/blob/main/LICENSE) license.
 
 </div>

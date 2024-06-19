@@ -2,7 +2,7 @@
 
 
 ```bash
-git clone https://github.com/re-path/studio.git
+git clone https://github.com/repath-project/repath-studio.git
 ```
 ```bash
 cd studio

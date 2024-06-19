@@ -4,8 +4,8 @@ site_author: Konstantinos Kaloutas
 site_url: https://repath.studio/
 copyright: 2024 © Repath Studio
 
-repo_url: https://github.com/re-path/studio
-repo_name: re-path/studio
+repo_url: https://github.com/repath-project/repath-studio
+repo_name: repath-studio
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -28,7 +28,7 @@ theme:
     primary: pink-700
     accent: pink
   font: false
-  
+
 nav:
   - Home: index.md
   - Get Studio:
@@ -54,13 +54,13 @@ extra:
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/repath.studio/
   - icon: fontawesome/brands/github
-    link: https://github.com/re-path/
+    link: https://github.com/repath-project/
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.highlight
-  - pymdownx.superfences 
+  - pymdownx.superfences
   - attr_list
   - md_in_html
   - toc:
