@@ -663,6 +663,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#re-frame-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Re-frame recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spec" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#useful-development-shortcuts" class="md-nav__link">
     <span class="md-ellipsis">
       Useful development shortcuts
@@ -773,6 +791,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#re-frame-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Re-frame recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spec" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spec
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#useful-development-shortcuts" class="md-nav__link">
     <span class="md-ellipsis">
       Useful development shortcuts
@@ -803,26 +839,31 @@
 <p>Thank you for your interest in actively participating in the project's development!
 Please read the <a href="https://github.com/repath-project/repath-studio/blob/main/CODE_OF_CONDUCT.md">Contributor Covenant Code of Conduct</a>
 and the <a href="../cla/">Contributor License Agreement</a> first.</p>
-<p>The project is based on <a href="https://github.com/day8/re-frame/">re-frame</a>,
-a framework for building Modern Web Apps in ClojureScript.
-You should probably take a look at their <a href="https://day8.github.io/re-frame/re-frame/">exceptional documentation</a>.</p>
+<p>The project is written in <a href="https://clojurescript.org/">ClojureScript</a> - a compiler for <a href="https://clojure.org/">Clojure</a> that targets JavaScript, and is based on <a href="https://github.com/day8/re-frame/">re-frame</a> - a framework for building Modern Web Apps in ClojureScript.
+You should probably take a look at their <a href="https://day8.github.io/re-frame/re-frame/">exceptional documentation</a> first.</p>
 <h2 id="style-guide">Style Guide<a class="headerlink" href="#style-guide" title="Permanent link">&para;</a></h2>
 <p>We try to follow the <a href="https://guide.clojure.style/">Clojure Style Guide</a> as much as possible.</p>
 <p>In addition to the <a href="https://guide.clojure.style/#idiomatic-names">idiomatic names</a>,
 we use the following conventions</p>
-<ul>
-<li>e - event</li>
-<li>el, els - element</li>
-<li>attr, attrs - attribute, attributes</li>
-<li>prop, props - property, properties</li>
-</ul>
+<pre>
+e           -> event
+el, els     -> element, elements
+attr, attrs -> attribute, attributes
+prop, props -> property, properties
+w, h        -> width, height
+t           -> time
+h, m, s, ms -> hours, minutes, seconds, milliseconds
+</pre>
+
 <p>We also use the following namespace aliases</p>
-<ul>
-<li>v - views</li>
-<li>e - events</li>
-<li>h - handlers</li>
-<li>s - subs</li>
-</ul>
+<pre>
+v  -> views
+e  -> events
+h  -> handlers
+s  -> subs
+fx -> effects
+</pre>
+
 <p>If the namespace belongs to a dedicated module, we use <code>module.v</code>.</p>
 <h2 id="app-structure">App structure<a class="headerlink" href="#app-structure" title="Permanent link">&para;</a></h2>
 <p>Main structure</p>
@@ -845,10 +886,18 @@ module\
 ├── events.cljs   <--- event handlers
 ├── subs.cljs     <--- subscription handlers
 ├── handlers.cljs <--- helper functions for db transformations
+├── effects.cljs  <--- effect handlers
 ├── styles.css    <--- styles
 └── README.md     <--- documentation
 </pre>
 
+<h2 id="re-frame-recommendations">Re-frame recommendations<a class="headerlink" href="#re-frame-recommendations" title="Permanent link">&para;</a></h2>
+<p>Avoid chaining events to create new ones. Always prefer composing pure functions that directly transform the db. That is the whole purpose of <code>handlers</code> namespace.</p>
+<p>Use interceptors sparingly. Although they look (and probably are) ingenious, it is hard to write and reason with them. Doing things explicitly, is usually easier to grasp and maintain.</p>
+<p>Always use auto-qualified keywords (e.g. <code>::copy</code>) for subscriptions, events and effects. You can use <code>as-alias</code> to require those namespaces without evaluating the registrations multiple times.</p>
+<h2 id="spec">Spec<a class="headerlink" href="#spec" title="Permanent link">&para;</a></h2>
+<p>We use <a href="https://github.com/metosin/malli">malli</a> to describe the shape of our app db and selectively validate incoming data (e.g. file loading). We also use this spec to generate default values. You can optionally enable full db validation on dev mode (see <code>renderer.dev</code> namespace).</p>
+<p>Function <a href="https://github.com/metosin/malli/blob/master/docs/function-schemas.md#function-inline-schemas">inline schemas</a> are used selectively on critical namespaces, like <code>renderer.utils.bounds</code>. Instrumentation is enabled by default on dev environment only.</p>
 <h2 id="useful-development-shortcuts">Useful development shortcuts<a class="headerlink" href="#useful-development-shortcuts" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Ctrl+Shift+I Toggle devtools
 Ctrl+Shift+X Toggle 10x
