@@ -34,8 +34,8 @@ nav:
   - Get Studio:
     - get-studio/download.md
     - get-studio/build-from-source.md
-  - Docs:
-    - docs/shortcuts.md
+  # - Docs:
+  #   - docs/shortcuts.md
   - Contribute:
     - contribute/CONTRIBUTING.md
     - CLA: contribute/cla.md

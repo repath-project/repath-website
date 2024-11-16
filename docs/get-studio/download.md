@@ -10,6 +10,6 @@ Select your operating system
 
 [![download for Windows](../assets/images/windows-badge.svg)](https://github.com/repath-project/repath-studio/releases/latest/download/repath-studio-win.exe)
 
-[![download for MacOS](../assets/images/mac_os-badge.svg)](https://github.com/repath-project/repath-studio/releases/latest/download/repath-studio-mac.dmg)
+<!-- [![download for MacOS](../assets/images/mac_os-badge.svg)](https://github.com/repath-project/repath-studio/releases/latest/download/repath-studio-mac.dmg) -->
 
-[See all releases](https://github.com/repath-project/repath-studio/releases/latest/)
+[See all](https://github.com/repath-project/repath-studio/releases/latest/)
