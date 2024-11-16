@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://repath.studio/contribute/CONTRIBUTING/">
       
       
-        <link rel="prev" href="../../docs/shortcuts/">
+        <link rel="prev" href="../../get-studio/build-from-source/">
       
       
         <link rel="next" href="../cla/">
@@ -256,26 +256,6 @@
         
   
   
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../docs/shortcuts/" class="md-tabs__link">
-          
-  
-    
-  
-  Docs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
     
   
   
@@ -475,78 +455,6 @@
       
   
   
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Docs
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Docs
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../docs/shortcuts/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Shortcuts
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -571,10 +479,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -585,8 +493,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Contribute
           </label>
@@ -899,7 +807,7 @@ module\
 <p>Always use auto-qualified keywords (e.g. <code>::copy</code>) for subscriptions, events and effects. You can use <code>as-alias</code> to require those namespaces without evaluating the registrations multiple times.</p>
 <h2 id="spec">Spec<a class="headerlink" href="#spec" title="Permanent link">&para;</a></h2>
 <p>We use <a href="https://github.com/metosin/malli">malli</a> to describe the shape of our app db and selectively validate incoming data (e.g. file loading). We also use this spec to generate default values. You can optionally enable full db validation on dev mode (see <code>renderer.dev</code> namespace).</p>
-<p>Function <a href="https://github.com/metosin/malli/blob/master/docs/function-schemas.md#function-inline-schemas">inline schemas</a> are used selectively on critical namespaces, like <code>renderer.utils.bounds</code>. Instrumentation is enabled by default on dev environment only.</p>
+<p><a href="https://github.com/metosin/malli/blob/master/docs/function-schemas.md#flat-arrow-function-schemas">Flat arrow function schemas</a> are used selectively on critical namespaces, like <code>renderer.utils.bounds</code>. Runtime instrumentation can also be enabled on dev environment.</p>
 <h2 id="useful-development-shortcuts">Useful development shortcuts<a class="headerlink" href="#useful-development-shortcuts" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Ctrl+Shift+I Toggle devtools
 Ctrl+Shift+X Toggle 10x
@@ -981,9 +889,9 @@ Ctrl+R Reload app
           
             
             <a
-              href="../../docs/shortcuts/"
+              href="../../get-studio/build-from-source/"
               class="md-footer__link md-footer__link--prev"
-              aria-label="Previous: Shortcuts"
+              aria-label="Previous: Build from source"
             >
               <div class="md-footer__button md-icon">
                 
@@ -994,7 +902,7 @@ Ctrl+R Reload app
                   Previous
                 </span>
                 <div class="md-ellipsis">
-                  Shortcuts
+                  Build from source
                 </div>
               </div>
             </a>
