@@ -52,3 +52,11 @@ hide:
     Distributed under the terms of the [AGPL-3.0](https://github.com/repath-project/repath-studio/blob/main/LICENSE) license.
 
 </div>
+
+<section>
+    <h2 style="text-align: center;">Supported by</h2>
+    <div style="display: flex; justify-content: center; gap: 50px; margin-bottom: 100px;">
+        <a href="https://nlnet.nl"><img src="https://nlnet.nl/logo/banner.svg" alt="Logo NLnet: abstract logo of four people seen from above" width="200px"></a>
+        <a href="https://nlnet.nl/core"><img src="https://nlnet.nl/image/logos/NGI0Core_tag.svg" alt="Logo NGI Zero: letterlogo shaped like a tag" width="250px"></a>
+    </div>
+</section>
