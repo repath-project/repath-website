@@ -62,7 +62,7 @@
     
     
       
-        <title>Studio - Repath</title>
+        <title>Home - Repath Studio</title>
       
     
     
@@ -93,7 +93,7 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Repath" >
+        <meta  property="og:title"  content="Repath Studio" >
       
         <meta  property="og:description"  content="Scalable Vector Graphics Manipulation" >
       
@@ -109,7 +109,7 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Repath" >
+        <meta  name="twitter:title"  content="Repath Studio" >
       
         <meta  name="twitter:description"  content="Scalable Vector Graphics Manipulation" >
       
@@ -127,7 +127,7 @@
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Repath" />
+  <meta property="og:title" content="Repath Studio" />
   <meta property="og:description" content="Scalable Vector Graphics Manipulation" />
   <meta property="og:url" content="https://repath.studio/" />
   <meta property="og:image" content="https://repath.studio/assets/images/banner.png" />
@@ -171,7 +171,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Repath" class="md-header__button md-logo" aria-label="Repath" data-md-component="logo">
+    <a href="." title="Repath Studio" class="md-header__button md-logo" aria-label="Repath Studio" data-md-component="logo">
       
   <img src="assets/images/logo.svg" alt="logo">
 
@@ -184,13 +184,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Repath
+            Repath Studio
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Studio
+              Home
             
           </span>
         </div>
@@ -262,7 +262,7 @@
     <div class="md-container" data-md-component="container">
       
       
-  
+
         
           
             
@@ -361,168 +361,147 @@
         
       
 
-  <!-- Additional styles for landing page -->
-  <style>
+<!-- Additional styles for landing page -->
+<style>
+  /* Application header should be static for the landing page */
+  .md-header {
+    position: initial;
+  }
 
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
+  .tx-container {
+    background: linear-gradient(to bottom, var(--md-primary-fg-color), #75164f 99%);
+  }
 
-    .tx-container {  
-      background: linear-gradient(to bottom,var(--md-primary-fg-color),#75164f 99%);
-    }
+  .tx-hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .tx-hero {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  .tx-hero h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 1.5em;
+  }
 
-    .tx-hero h1 {
-      margin-bottom: 12px;
-      color: white;
-      font-weight: 800;
-      font-size: 40px;
-    }
+  .tx-hero__image video {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+  }
 
-    .tx-hero h2 {
-      margin-top: 0;
-      color: white;
-      font-size: 1.1em;
-    }
-    
-    .tx-hero__image video {
-      width: 100%;
-      height: auto;
-      min-height: 100px;
-      box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
-    }
+  .tx-hero__quote {
+    margin: 2em 0 !important;
+    font-size: .8em !important;
+  }
 
-    .tx-hero__quote {
-        margin: 2em 0 !important;
-        font-size: .8em !important;
+  .tx-hero__content {
+    flex: 0 0 100%;
+    padding: 18px;
+    align-self: center;
+  }
+
+  .tx-hero__tagline {
+    margin: 0;
+    color: var(--md-footer-fg-color--lighter);
+    font-weight: 700;
+  }
+
+  .tx-hero__warning {
+    margin-top: 0.75em !important;
+    color: var(--md-footer-fg-color--lighter);
+    font-size: small;
+  }
+
+  .tx-hero__image {
+    padding: 2vh 18px;
+  }
+
+  .tx-hero .md-button {
+    padding: .425em 1.6em;
+  }
+
+  .tx-hero .md-button:hover,
+  .tx-hero .md-button:focus {
+    color: var(--md-default-fg-color);
+  }
+
+  .tx-hero .md-button--primary {
+    color: var(--md-default-fg-color);
+  }
+
+  /* Hide table of contents */
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
     }
 
     .tx-hero__content {
-        flex: 0 0 100%;
-        padding: 18px;
-      }
-
-    .tx-hero__tagline {
-      margin: 0;
-      color: var(--md-footer-fg-color--lighter);
-      font-weight: 700;
+      flex: 0 0 45%;
     }
 
-    .tx-hero__warning {
-      margin-top: 0.75em !important;
-      color: var(--md-footer-fg-color--lighter);
-      font-size: small;
-    }
-      
     .tx-hero__image {
-      padding: 2vh 18px;
+      order: 1;
+      flex: 0 0 55%;
+      padding: 100px 18px 50px 50px;
+    }
+
+    .tx-hero h2 {
+      margin-bottom: 1em;
+      font-size: 2.5em;
+    }
+
+    .tx-hero__quote {
+      margin: 2.5em 0 !important;
+      font-size: 1em !important;
     }
 
     .tx-hero .md-button {
-      padding: .425em 1.6em;
+      padding: .625em 2em;
     }
+  }
 
-    .tx-hero .md-button:hover,
-    .tx-hero .md-button:focus {
-      color: var(--md-default-fg-color);
+  /* Hide navigation */
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
     }
+  }
 
-    .tx-hero  .md-button--primary {
-      color: var(--md-default-fg-color);
-    }
+  =
+</style>
 
-    /* Hide table of contents */
-    @media screen and (min-width: 60em) {
-      .md-sidebar--secondary {
-        display: none;
-      }
+<!-- Hero for landing page -->
+<section class="tx-container">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
 
-      .tx-hero__content {
-        flex: 0 0 45%;
-      }
-
-      .tx-hero__image {
-        order: 1;
-        flex: 0 0 55%;
-        padding: 100px 18px 50px 50px;
-      }
-
-      .tx-hero h1 {
-        margin-top: 70px;
-        margin-bottom: 1rem;
-        font-weight: 800;
-        font-size: 70px;
-      }
-
-      .tx-hero h2 {
-        margin-bottom: 1em;
-        font-size: 1.5625em;
-      }
-
-      .tx-hero__quote {
-        margin: 2.5em 0 !important;
-        font-size: 1em !important;
-      }
-
-      .tx-hero .md-button {
-        padding: .625em 2em;
-      }
-    }
-
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-=
-  </style>
-
-  <!-- Hero for landing page -->
-  <section class="tx-container">
-    <div class="md-grid md-typeset">
-      <div class="tx-hero">
-
-        <!-- Hero image -->
-        <div class="tx-hero__image">
-          <video poster="assets/images/studio.png">Your browser does not support the video tag.</video>
-        </div>
-
-        <!-- Hero content -->
-        <div class="tx-hero__content">
-          <h1>Studio</h1>
-          <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
-          <h2>Scalable Vector Graphics Manipulation</h2>
-
-          <a
-            href="get-studio/download/"
-            title="Download"
-            class="md-button md-button--primary"
-          >
-            Download
-          </a>
-          <a
-            href="https://demo.repath.studio/"
-            target="_blank"
-            title="source.link.title"
-            class="md-button"
-          >
-            Online Demo
-          </a>
-          <div class="tx-hero__warning">
-            Some features are not available on the online demo.
-          </div>
-        </div>
-
+      <!-- Hero image -->
+      <div class="tx-hero__image">
+        <video poster="assets/images/studio.png">Your browser does not support the video tag.</video>
       </div>
-    </div>  
-  </section>
+
+      <!-- Hero content -->
+      <div class="tx-hero__content">
+        <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
+        <h2>Scalable Vector Graphics Manipulation</h2>
+
+        <a href="get-studio/download/" title="Download"
+          class="md-button md-button--primary">
+          Download
+        </a>
+        <a href="https://demo.repath.studio/" target="_blank" title="source.link.title"
+          class="md-button">
+          Online Demo
+        </a>
+        <div class="tx-hero__warning">
+          Some features are not available on the online demo.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
       <main class="md-main" data-md-component="main">
@@ -543,12 +522,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Repath" class="md-nav__button md-logo" aria-label="Repath" data-md-component="logo">
+    <a href="." title="Repath Studio" class="md-nav__button md-logo" aria-label="Repath Studio" data-md-component="logo">
       
   <img src="assets/images/logo.svg" alt="logo">
 
     </a>
-    Repath
+    Repath Studio
   </label>
   
     <div class="md-nav__source">
@@ -851,7 +830,7 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <div class="grid cards" style="margin-bottom: 100px;">
+<div class="grid cards" style="margin-bottom: 100px;">
 <ul>
 <li>
 <p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M80 104a24 24 0 1 0 0-48 24 24 0 1 0 0 48m80-24c0 32.8-19.7 61-48 73.3v87.8c18.8-10.9 40.7-17.1 64-17.1h96c35.3 0 64-28.7 64-64v-6.7c-28.3-12.3-48-40.5-48-73.3 0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3v6.7c0 70.7-57.3 128-128 128h-96c-35.3 0-64 28.7-64 64v6.7c28.3 12.3 48 40.5 48 73.3 0 44.2-35.8 80-80 80S0 476.2 0 432c0-32.8 19.7-61 48-73.3V153.3C19.7 141 0 112.8 0 80 0 35.8 35.8 0 80 0s80 35.8 80 80m232 0a24 24 0 1 0-48 0 24 24 0 1 0 48 0M80 456a24 24 0 1 0 0-48 24 24 0 1 0 0 48"/></svg></span> <strong>History tree</strong></p>
