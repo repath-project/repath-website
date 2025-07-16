@@ -21,176 +21,155 @@
 
 <!-- Render hero under tabs -->
 {% block tabs %}
-  {{ super() }}
+{{ super() }}
 
-  <!-- Additional styles for landing page -->
-  <style>
+<!-- Additional styles for landing page -->
+<style>
+  /* Application header should be static for the landing page */
+  .md-header {
+    position: initial;
+  }
 
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
+  .tx-container {
+    background: linear-gradient(to bottom, var(--md-primary-fg-color), #75164f 99%);
+  }
 
-    .tx-container {  
-      background: linear-gradient(to bottom,var(--md-primary-fg-color),#75164f 99%);
-    }
+  .tx-hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .tx-hero {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  .tx-hero h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 1.5em;
+  }
 
-    .tx-hero h1 {
-      margin-bottom: 12px;
-      color: white;
-      font-weight: 800;
-      font-size: 40px;
-    }
+  .tx-hero__image video {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+  }
 
-    .tx-hero h2 {
-      margin-top: 0;
-      color: white;
-      font-size: 1.1em;
-    }
-    
-    .tx-hero__image video {
-      width: 100%;
-      height: auto;
-      min-height: 100px;
-      box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
-    }
+  .tx-hero__quote {
+    margin: 2em 0 !important;
+    font-size: .8em !important;
+  }
 
-    .tx-hero__quote {
-        margin: 2em 0 !important;
-        font-size: .8em !important;
+  .tx-hero__content {
+    flex: 0 0 100%;
+    padding: 18px;
+    align-self: center;
+  }
+
+  .tx-hero__tagline {
+    margin: 0;
+    color: var(--md-footer-fg-color--lighter);
+    font-weight: 700;
+  }
+
+  .tx-hero__warning {
+    margin-top: 0.75em !important;
+    color: var(--md-footer-fg-color--lighter);
+    font-size: small;
+  }
+
+  .tx-hero__image {
+    padding: 2vh 18px;
+  }
+
+  .tx-hero .md-button {
+    padding: .425em 1.6em;
+  }
+
+  .tx-hero .md-button:hover,
+  .tx-hero .md-button:focus {
+    color: var(--md-default-fg-color);
+  }
+
+  .tx-hero .md-button--primary {
+    color: var(--md-default-fg-color);
+  }
+
+  /* Hide table of contents */
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
     }
 
     .tx-hero__content {
-        flex: 0 0 100%;
-        padding: 18px;
-      }
-
-    .tx-hero__tagline {
-      margin: 0;
-      color: var(--md-footer-fg-color--lighter);
-      font-weight: 700;
+      flex: 0 0 45%;
     }
 
-    .tx-hero__warning {
-      margin-top: 0.75em !important;
-      color: var(--md-footer-fg-color--lighter);
-      font-size: small;
-    }
-      
     .tx-hero__image {
-      padding: 2vh 18px;
+      order: 1;
+      flex: 0 0 55%;
+      padding: 100px 18px 50px 50px;
+    }
+
+    .tx-hero h2 {
+      margin-bottom: 1em;
+      font-size: 2.5em;
+    }
+
+    .tx-hero__quote {
+      margin: 2.5em 0 !important;
+      font-size: 1em !important;
     }
 
     .tx-hero .md-button {
-      padding: .425em 1.6em;
+      padding: .625em 2em;
     }
+  }
 
-    .tx-hero .md-button:hover,
-    .tx-hero .md-button:focus {
-      color: var(--md-default-fg-color);
+  /* Hide navigation */
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
     }
+  }
 
-    .tx-hero  .md-button--primary {
-      color: var(--md-default-fg-color);
-    }
+  =
+</style>
 
-    /* Hide table of contents */
-    @media screen and (min-width: 60em) {
-      .md-sidebar--secondary {
-        display: none;
-      }
+<!-- Hero for landing page -->
+<section class="tx-container">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
 
-      .tx-hero__content {
-        flex: 0 0 45%;
-      }
-
-      .tx-hero__image {
-        order: 1;
-        flex: 0 0 55%;
-        padding: 100px 18px 50px 50px;
-      }
-
-      .tx-hero h1 {
-        margin-top: 70px;
-        margin-bottom: 1rem;
-        font-weight: 800;
-        font-size: 70px;
-      }
-
-      .tx-hero h2 {
-        margin-bottom: 1em;
-        font-size: 1.5625em;
-      }
-
-      .tx-hero__quote {
-        margin: 2.5em 0 !important;
-        font-size: 1em !important;
-      }
-
-      .tx-hero .md-button {
-        padding: .625em 2em;
-      }
-    }
-
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-=
-  </style>
-
-  <!-- Hero for landing page -->
-  <section class="tx-container">
-    <div class="md-grid md-typeset">
-      <div class="tx-hero">
-
-        <!-- Hero image -->
-        <div class="tx-hero__image">
-          <video poster="assets/images/studio.png">Your browser does not support the video tag.</video>
-        </div>
-
-        <!-- Hero content -->
-        <div class="tx-hero__content">
-          <h1>Studio</h1>
-          <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
-          <h2>{{ config.site_description }}</h2>
-
-          <a
-            href="{{ page.next_page.url | url }}"
-            title="{{ page.next_page.title | striptags }}"
-            class="md-button md-button--primary"
-          >
-            Download
-          </a>
-          <a
-            href="https://demo.repath.studio/"
-            target="_blank"
-            title="{{ lang.t('source.link.title') }}"
-            class="md-button"
-          >
-            Online Demo
-          </a>
-          <div class="tx-hero__warning">
-            Some features are not available on the online demo.
-          </div>
-        </div>
-
+      <!-- Hero image -->
+      <div class="tx-hero__image">
+        <video poster="assets/images/studio.png">Your browser does not support the video tag.</video>
       </div>
-    </div>  
-  </section>
+
+      <!-- Hero content -->
+      <div class="tx-hero__content">
+        <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
+        <h2>{{ config.site_description }}</h2>
+
+        <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary">
+          Download
+        </a>
+        <a href="https://demo.repath.studio/" target="_blank" title="{{ lang.t('source.link.title') }}"
+          class="md-button">
+          Online Demo
+        </a>
+        <div class="tx-hero__warning">
+          Some features are not available on the online demo.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 {% endblock %}
 
 <!-- Content -->
 {% block content %}
-  {{ page.content }}
+{{ page.content }}
 {% endblock %}
 
 <!-- Application footer -->
