@@ -23,9 +23,9 @@
  }
   
 :root {
-    --md-primary-fg-color:        #AD1457;
-    --md-primary-fg-color--light: #EC407A;
-    --md-primary-fg-color--dark:  #880E4F;
+    --md-primary-fg-color:        #97124c;
+    --md-primary-fg-color--light: #c51e55;
+    --md-primary-fg-color--dark:  #6e0b40;
 }
 
 body {
