@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <filter id="filter3891" x="-.14884" y="-.14884" width="1.2977" height="1.2977" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="2.1668024"/>
@@ -13,7 +12,6 @@
    <stop stop-color="#fff" stop-opacity="0" offset="1"/>
   </linearGradient>
  </defs>
- <rect x="-1.9073e-6" width="170.57" height="97.517" rx="0" ry="0" fill="#fff" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <rect x="67.815" y="16.078" width="34.94" height="34.94" rx="7.5452" ry="7.5452" fill="#660d29" fill-opacity=".35773" filter="url(#filter3891)" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <text x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-size="10.583px" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal">Repath Studio</tspan></text>
  <text x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-size="7.0819px" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="16.373896" y="81.614952"><tspan x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal">Scalable Vector Graphics Manipulation</tspan></tspan></text>
