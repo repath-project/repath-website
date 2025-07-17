@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="644.68" height="368.57" version="1.1" viewBox="0 0 170.57 97.517" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <filter id="filter3891" x="-.14884" y="-.14884" width="1.2977" height="1.2977" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="2.1668024"/>
@@ -8,16 +7,20 @@
    <stop stop-color="#d01761" offset="0"/>
    <stop stop-color="#e93976" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient11" x1="1516.3" x2="1570.6" y1="732.63" y2="732.63" gradientTransform="matrix(.072016 0 0 .072016 -27.676 -20.735)" gradientUnits="userSpaceOnUse">
-   <stop stop-opacity=".14895" offset="0"/>
+  <linearGradient id="linearGradient11-5" x1="1516.3" x2="1624.9" y1="732.63" y2="732.63" gradientTransform="matrix(.072012 0 0 .072012 -27.815 -20.731)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#4e2e3d" stop-opacity=".33409" offset="0"/>
    <stop stop-color="#fff" stop-opacity="0" offset="1"/>
   </linearGradient>
+  <linearGradient id="linearGradient4-7" x1="1196.1" x2="1196.1" y1="681.45" y2="126.22" gradientTransform="matrix(.050226 0 0 .062946 25.213 6.606)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ad1457" offset="0"/>
+   <stop stop-color="#d01761" offset="1"/>
+  </linearGradient>
  </defs>
- <rect x="-1.9073e-6" width="170.57" height="97.517" rx="0" ry="0" fill="#fff" stop-color="#000000" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <rect x="67.815" y="16.078" width="34.94" height="34.94" rx="7.5452" ry="7.5452" fill="#660d29" fill-opacity=".35773" filter="url(#filter3891)" stop-color="#000000" stroke-width=".99997" style="-inkscape-stroke:none;font-variation-settings:normal"/>
  <text x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-size="10.583px" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="85.026627" y="69.480003" fill="#33445b" font-family="Sora" font-weight="800" stop-color="#000000" stroke-width=".25792" text-align="center" text-anchor="middle" style="-inkscape-stroke:none;font-variation-settings:normal">Repath Studio</tspan></text>
  <text x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-size="7.0819px" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal;line-height:1.25" xml:space="preserve"><tspan x="16.373896" y="81.614952"><tspan x="16.373896" y="81.614952" fill="#33445b" font-family="Sora" font-weight="300" stop-color="#000000" stroke-width=".25792" style="-inkscape-stroke:none;font-variation-settings:normal">Scalable Vector Graphics Manipulation</tspan></tspan></text>
  <rect x="67.811" y="14.551" width="34.95" height="34.95" rx="6.0872" ry="6.0872" fill="url(#linearGradient4)" stop-color="#000000" stroke-width=".068228" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <path d="m85.434 21.899a10.128 10.128 0 0 0-10.128 10.128 10.128 10.128 0 0 0 0.0011 0.01646h-0.0011v10.111h6.2164v-0.80486a10.128 10.128 0 0 0 3.9111 0.80486 10.128 10.128 0 0 0 10.128-10.128 10.128 10.128 0 0 0-10.128-10.128zm0 6.2164a3.9111 3.9111 0 0 1 3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111-3.9111 3.9111 3.9111 0 0 1 3.9111-3.9111z" fill="#fff" stroke-width=".072016" style="-inkscape-stroke:none;font-variation-settings:normal"/>
- <path d="m81.524 32.026v9.3232a10.128 10.128 0 0 0 3.9112 0.80485 10.128 10.128 0 0 0 10.128-10.128 10.128 10.128 0 0 0 0-1.28e-4h-6.2164a3.9111 3.9111 0 0 1 0 1.28e-4 3.9111 3.9111 0 0 1-3.9111 3.9111 3.9111 3.9111 0 0 1-3.9111-3.9111 3.9111 3.9111 0 0 1 0-1.28e-4z" fill="url(#linearGradient11)" stop-color="#000000" stroke-width=".26544" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <rect x="67.811" y="14.551" width="34.95" height="34.95" rx="6.0872" ry="6.0872" fill="url(#linearGradient4-7)" stop-color="#000000" stroke-width=".052834" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <path d="m85.286 21.899a10.127 10.127 0 0 0-10.127 10.127 10.127 10.127 0 0 0 8.09e-4 0.01646h-8.09e-4v10.111h6.216v-0.80474a10.127 10.127 0 0 0 3.9108 0.80474 10.127 10.127 0 0 0 10.127-10.127 10.127 10.127 0 0 0-10.127-10.127zm0 6.216a3.9108 3.9108 0 0 1 3.9108 3.9108 3.9108 3.9108 0 0 1-3.9108 3.9108 3.9108 3.9108 0 0 1-3.9108-3.9108 3.9108 3.9108 0 0 1 3.9108-3.9108z" fill="#fff" stroke-width=".060469" style="-inkscape-stroke:none;font-variation-settings:normal"/>
+ <path d="m81.375 32.026v9.3224a10.127 10.127 0 0 0 3.9108 0.80474 10.127 10.127 0 0 0 10.127-10.127 10.127 10.127 0 0 0 0-1.28e-4h-6.216a3.9108 3.9108 0 0 1 0 1.28e-4 3.9108 3.9108 0 0 1-3.9108 3.9108 3.9108 3.9108 0 0 1-3.9107-3.9108 3.9108 3.9108 0 0 1 0-1.28e-4z" fill="url(#linearGradient11-5)" stop-color="#000000" stroke-width=".26542" style="-inkscape-stroke:none;font-variation-settings:normal"/>
 </svg>
