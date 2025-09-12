@@ -38,8 +38,8 @@ nav:
   #   - docs/shortcuts.md
   - Contribute:
     - contribute/CONTRIBUTING.md
-    - CLA: contribute/cla.md
-  - Changelog: roadmap/changelog.md
+    - CLA: contribute/CLA.md
+  - Changelog: roadmap/CHANGELOG.md
 
 extra:
   generator: false

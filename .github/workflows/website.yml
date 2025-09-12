@@ -30,7 +30,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CHANGELOG.md > ./docs/roadmap/changelog.md
+      - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CHANGELOG.md > ./docs/roadmap/CHANGELOG.md
       - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CONTRIBUTING.md > ./docs/contribute/CONTRIBUTING.md
+      - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CLA.md > ./docs/contribute/CLA.md
       - run: pip install mkdocs-material=="9.6.14" "mkdocs-material[imaging]" mkdocs-glightbox
       - run: mkdocs gh-deploy --clean --force
