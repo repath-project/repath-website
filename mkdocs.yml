@@ -40,8 +40,10 @@ nav:
     - contribute/CONTRIBUTING.md
     - CLA: contribute/CLA.md
   - Roadmap:
-    - roadmap/ROADMAP.md
+    - Roadmap: roadmap/ROADMAP.md
     - roadmap/CHANGELOG.md
+  - Blog:
+    - blog/index.md
 
 extra:
   generator: false
@@ -77,6 +79,7 @@ markdown_extensions:
 plugins:
   - search
   - glightbox
+  - blog
   - social:
       cards_layout_options:
         font_family: Sora
