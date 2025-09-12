@@ -39,7 +39,9 @@ nav:
   - Contribute:
     - contribute/CONTRIBUTING.md
     - CLA: contribute/CLA.md
-  - Changelog: roadmap/CHANGELOG.md
+  - Roadmap:
+    - roadmap/ROADMAP.md
+    - roadmap/CHANGELOG.md
 
 extra:
   generator: false

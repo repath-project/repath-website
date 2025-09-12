@@ -4,5 +4,8 @@
   "repository": "https://github.com/repath-project/repath-website",
   "author": "Konstantinos Kaloutas",
   "homepage": "https://repath.studio",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "roadmap-generator": "0.0.3"
+  }
 }
