@@ -26,13 +26,13 @@ The application is now translatable (you can [read more here](https://github.com
 Big thanks to [Christos](https://github.com/WonderlustKing) for handling the initial 
 implementation!
 
-![Language Menu](https://github.com/user-attachments/assets/cbbbbbb9-83e6-49f7-9c24-d4d6bdb6cc28)
+![Language Menu](/assets/images/language-menu.png)
 
 ## Export to rasterized image
 
 Users can now export the document to various rasterized image formats (you can [read more here](https://github.com/repath-project/repath-studio/pull/89)).
 
-![Export Menu](https://github.com/user-attachments/assets/75ebdc78-6598-41f9-bbbe-cab778ed1595)
+![Export Menu](/assets/images/export-menu.png)
 
 ## Font enhancements
 
