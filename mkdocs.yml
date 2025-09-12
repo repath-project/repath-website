@@ -37,11 +37,11 @@ nav:
   # - Docs:
   #   - docs/shortcuts.md
   - Contribute:
-    - contribute/CONTRIBUTING.md
+    - contribute/contributing.md
     - CLA: contribute/CLA.md
   - Roadmap:
-    - Roadmap: roadmap/ROADMAP.md
-    - roadmap/CHANGELOG.md
+    - Milestones: roadmap/milestones.md
+    - roadmap/changelog.md
   - Blog:
     - blog/index.md
 
