@@ -35,5 +35,5 @@ jobs:
       - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CHANGELOG.md > ./docs/roadmap/changelog.md
       - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CONTRIBUTING.md > ./docs/contribute/contributing.md
       - run: curl https://raw.githubusercontent.com/repath-project/repath-studio/main/CLA.md > ./docs/contribute/CLA.md
-      - run: pip install mkdocs-material=="9.6.14" "mkdocs-material[imaging]" mkdocs-glightbox
+      - run: pip install mkdocs-material=="9.6.20" "mkdocs-material[imaging]" mkdocs-glightbox
       - run: mkdocs gh-deploy --clean --force
