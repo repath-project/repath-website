@@ -63,6 +63,12 @@
     align-self: center;
   }
 
+  .tx-hero__description {
+    color: var(--md-footer-fg-color);
+    opacity: 0.8;
+    margin-bottom: 1.2em;
+  }
+
   .tx-hero__tagline {
     margin-bottom: 10px;
     color: var(--md-footer-fg-color--lighter);
@@ -109,7 +115,7 @@
     }
 
     .tx-hero h1 {
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
       font-size: 2.5em;
     }
 
@@ -147,17 +153,17 @@
       <div class="tx-hero__content">
         <p class="tx-hero__tagline">Free - Open Source - Cross Platform</p>
         <h1>{{ config.site_description }}</h1>
-
+        <p class="tx-hero__description">A cross platform vector graphics editor that combines procedural tooling with traditional design workflows.</p>
         <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
           class="md-button md-button--primary">
           Download
         </a>
         <a href="https://demo.repath.studio/" target="_blank" title="{{ lang.t('source.link.title') }}"
           class="md-button">
-          Online Demo
+          Web Application
         </a>
         <div class="tx-hero__warning">
-          Some features are not available on the online demo.
+          Some features might not be available on the online app.
         </div>
       </div>
 
