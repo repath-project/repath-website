@@ -75,6 +75,11 @@ body {
     white-space: nowrap;
 }
 
+.policies-links {
+    font-size: .64rem;
+    margin: auto 0 auto .6rem;
+}
+
 .md-header-nav__title {
     padding-left: 0;
 }
