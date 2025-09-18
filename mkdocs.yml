@@ -31,9 +31,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Get Studio:
-    - get-studio/download.md
-    - get-studio/build-from-source.md
+  - Get Started:
+    - get-started/download.md
+    - get-started/build-from-source.md
   # - Docs:
   #   - docs/shortcuts.md
   - Contribute:
