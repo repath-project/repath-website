@@ -483,6 +483,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Build from source
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -494,6 +507,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shell instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -960,6 +1010,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shell instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -978,14 +1054,27 @@
 
 
 <h1 id="build-from-source">Build from source<a class="headerlink" href="#build-from-source" title="Permanent link">¶</a></h1>
-<p></p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/repath-project/repath-studio.git
+<h2 id="system-requirements">System Requirements<a class="headerlink" href="#system-requirements" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://nodejs.org/">node.js</a></li>
+<li>Java SDK (8+) <a href="https://openjdk.org/">OpenJDK</a> or 
+  <a href="https://www.oracle.com/java/technologies/downloads/">Oracle</a></li>
+<li><a href="https://clojure.org/guides/install_clojure">Clojure</a></li>
+</ul>
+<h2 id="shell-instructions">Shell instructions<a class="headerlink" href="#shell-instructions" title="Permanent link">¶</a></h2>
+<p>Clone the project and go into the directory.</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/repath-project/repath-studio.git<span class="w"> </span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>studio
+<p>Go into the directory.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>repath-studio
 </code></pre></div>
+<p>Install the dependencies and build the webb application.</p>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npm<span class="w"> </span>run<span class="w"> </span>build
 </code></pre></div>
+<p>Package the electron application.</p>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>dist
-</code></pre></div><p></p>
+</code></pre></div>
+<p>The app will be available under the <code>dist</code> directory.</p>
 
 
 
