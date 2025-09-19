@@ -6,6 +6,16 @@ you visit our website, or when use our application.
 ## What data do we collect?
 
 We may send anonymous error reports when you use the application (desktop or web).
+Typically, an error report may contain the following:
+
+- The error message that occurred
+- Information about the use of the app immediately before the incident and when the app
+  was started
+- Date and time of the incident
+- Device information: operating system and version, app version and device model
+- Status of the device: battery charge and temperature, charging state, boot time, memory
+  space and connection type (Wi-Fi/mobile data), (free) storage space, preferred language,
+  device orientation, screen resolution and density, time zone
 
 ## How do we collect your data?
 
@@ -22,6 +32,13 @@ unless it is required by law or in order to fulfil a legal obligation.
 
 We use [Sentry](https://sentry.io) to store error reports. Error events will be
 automatically deleted after 90 days.
+
+## How can you access or delete this data?
+
+Since we try to anonymize the error data as much as possible, there is no reliable way to
+find your data. When you use the application for the first time, you will be notified
+about this and you will have the option to enable or disable error reports. We also offer
+the ability to change this option at any time.
 
 ## Data sub-processors
 

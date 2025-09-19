@@ -78,6 +78,12 @@ plugins:
   - search
   - glightbox
   - blog
+  - git-revision-date-localized:
+      exclude:
+        - get-started/*
+        - blog/*
+        - contribute/*
+        - index.md
   - social:
       cards_layout_options:
         font_family: Sora
