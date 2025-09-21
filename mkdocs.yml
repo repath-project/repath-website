@@ -83,6 +83,7 @@ plugins:
         - get-started/*
         - blog/*
         - contribute/*
+        - roadmap/*
         - index.md
   - social:
       cards_layout_options:
