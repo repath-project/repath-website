@@ -44,20 +44,20 @@ the ability to change this option at any time.
 
 A list of sub-processors and third-party service providers is maintained below.
 
-- [GitHub](https://github.com/) - Our website is served as a GitHub Page. For more 
+- [GitHub](https://github.com/) - Our website is served as a GitHub Page. For more
   information about GitHub's practices, see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
-- [Sentry](https://sentry.io/) - Sentry is used for error reporting. For more information 
+- [Sentry](https://sentry.io/) - Sentry is used for error reporting. For more information
   about Sentry's practices, see their [Privacy Statement](https://sentry.io/privacy/).
 
 ## Privacy policies of other websites
 
-Our website and our application may contain links to other websites. Our privacy policy 
-applies only to our website and app, so if you click on a link to another website, you 
+Our website and our application may contain links to other websites. Our privacy policy
+applies only to our website and app, so if you click on a link to another website, you
 should read their privacy policy.
 
 ## Changes to our privacy policy
 
-Our Company keeps its privacy policy under regular review and places any updates on this 
+Our Company keeps its privacy policy under regular review and places any updates on this
 web page.
 
 ## How to contact us

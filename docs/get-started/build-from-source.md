@@ -3,10 +3,9 @@
 ## System Requirements
 
 - [node.js](https://nodejs.org/)
-- Java SDK (8+) [OpenJDK](https://openjdk.org/) or 
+- Java SDK (8+) [OpenJDK](https://openjdk.org/) or
   [Oracle](https://www.oracle.com/java/technologies/downloads/)
 - [Clojure](https://clojure.org/guides/install_clojure)
-
 
 ## Shell instructions
 
