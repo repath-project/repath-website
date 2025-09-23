@@ -1134,26 +1134,26 @@ h, m, s, ms -&gt; hours, minutes, seconds, milliseconds
 <h2 id="app-structure">App structure<a class="headerlink" href="#app-structure" title="Permanent link">¶</a></h2>
 <p>Main structure</p>
 <pre>src\
-├── renderer\     &lt;--- <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-renderer-process">Renderer Process</a>
-├── electron\     &lt;--- <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-main-process">Main Process</a> &amp; <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts">Preload script</a>
-├── lang\         &lt;--- Translation files
-└── worker\       &lt;--- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>
+├── renderer\ -&gt; <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-renderer-process">Renderer Process</a>
+├── electron\ -&gt; <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#the-main-process">Main Process</a> &amp; <a href="https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts">Preload script</a>
+├── lang\     -&gt; Translation files
+└── worker\   -&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>
 </pre>
 
 <p>We are trying to split our code under renderer into relatively independent modules,
 following <a href="https://day8.github.io/re-frame/App-Structure/">re-frame's app structure suggestions</a>
 with some minor additions.</p>
 <div class="highlight"><pre><span></span><code>module\
-├── core.cljs      &lt;--- entry point
-├── db.cljs        &lt;--- schema, validation
-├── views.cljs     &lt;--- reagent views
-├── events.cljs    &lt;--- event handlers
-├── subs.cljs      &lt;--- subscription handlers
-├── handlers.cljs  &lt;--- helper functions for db transformations
-├── effects.cljs   &lt;--- effect handlers
-├── hierarchy.cljs &lt;--- multimethods and hierarchies
-├── styles.css     &lt;--- styles
-└── README.md      &lt;--- documentation
+├── core.cljs      -&gt; entry point
+├── db.cljs        -&gt; schema, validation
+├── views.cljs     -&gt; reagent views
+├── events.cljs    -&gt; event handlers
+├── subs.cljs      -&gt; subscription handlers
+├── handlers.cljs  -&gt; helper functions for db transformations
+├── effects.cljs   -&gt; effect handlers
+├── hierarchy.cljs -&gt; multimethods and hierarchies
+├── styles.css     -&gt; styles
+└── README.md      -&gt; documentation
 </code></pre></div>
 <h2 id="re-frame-recommendations">Re-frame recommendations<a class="headerlink" href="#re-frame-recommendations" title="Permanent link">¶</a></h2>
 <p>Avoid chaining events to create new ones. Always prefer composing pure functions that
@@ -1174,9 +1174,9 @@ By default, function schemas are instrumented only during tests to avoid perform
 overhead. However, runtime instrumentation can also be enabled in the development
 environment (see <code>renderer.dev</code>).</p>
 <h2 id="useful-development-shortcuts">Useful development shortcuts<a class="headerlink" href="#useful-development-shortcuts" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code>Ctrl+Shift+I Toggle devtools
-Ctrl+Shift+X Toggle 10x
-Ctrl+R Reload app
+<div class="highlight"><pre><span></span><code>Ctrl+Shift+I -&gt; Toggle devtools
+Ctrl+Shift+X -&gt; Toggle 10x
+Ctrl+R       -&gt; Reload app
 </code></pre></div>
 
 
