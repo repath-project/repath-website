@@ -1,6 +1,5 @@
 # Shortcuts
 
-
 | Command | Shortcut |
 | --- | --- |
 | Undo | **CTRL + Z** |
