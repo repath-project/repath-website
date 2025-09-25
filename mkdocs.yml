@@ -37,6 +37,7 @@ nav:
     - get-started/shortcuts.md  
   - Contribute:
     - Develop: contribute/contributing.md
+    - Code of Conduct: contribute/CODE_OF_CONDUCT.md
     - CLA: contribute/CLA.md
   - Roadmap:
     - Milestones: roadmap/milestones.md
