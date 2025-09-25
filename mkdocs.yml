@@ -36,7 +36,7 @@ nav:
     - get-started/build-from-source.md
     - get-started/shortcuts.md  
   - Contribute:
-    - contribute/contributing.md
+    - Develop: contribute/contributing.md
     - CLA: contribute/CLA.md
   - Roadmap:
     - Milestones: roadmap/milestones.md
