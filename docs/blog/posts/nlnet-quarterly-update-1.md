@@ -2,8 +2,10 @@
 date: 2025-09-12
 tags:
   - NLnet
+  - Devlog
 categories:
   - NLnet Funding
+  - Devlog
 authors: 
   - Konstantinos
 links:
