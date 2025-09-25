@@ -34,8 +34,7 @@ nav:
   - Get Started:
     - get-started/download.md
     - get-started/build-from-source.md
-  # - Docs:
-  #   - docs/shortcuts.md
+    - get-started/shortcuts.md  
   - Contribute:
     - contribute/contributing.md
     - CLA: contribute/CLA.md

@@ -5,16 +5,16 @@
 | Undo | **CTRL + Z** |
 | Redo | **CTRL + Y**, **CTRL + SHIFT + Z** |
 | New document | **CTRL + N** |
-| Toggle grid | **#** |
+| Toggle grid | **.** |
 | Raise elements | **PAGE UP** |
 | Lower element| **PAGE DOWN** |
 | Raise element to top | **HOME** |
 | Lower element to top | **END** |
-| Pan to active page and set zoom to default | **1** |
-| Fit active page to canvas | **2** |
-| Fill active page to canvas | **3** |
+| Focus selected | **1** |
+| Fit selected | **2** |
+| Fill selected | **3** |
 | Pan | **MIDDLE CLICK + MOUSE MOVE** |
-| Zoom in/out | **CTRL + SCROLL**, **ALT + SCROLL** |
+| Zoom in & out | **CTRL + SCROLL**, **ALT + SCROLL** |
 | Zoom in | **=** |
 | Zoom Out | **-** |
 | Toggle element tree | **CTRL + T** |
@@ -50,3 +50,8 @@
 | Fill tool | **F** |
 | Cancel action | **ESC** |
 | Close window | **ALT + F4** |
+| Toggle debug info | **CTRL + SHIFT + D** |
+| Group | **CTRL + G** |
+| Ungroup | **CTRL + SHIFT + G** |
+| Lock | **CTRL + L** |
+| Unlock | **CTRL + SHIFT + L** |
