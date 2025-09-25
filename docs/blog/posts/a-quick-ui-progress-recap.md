@@ -8,7 +8,7 @@ authors:
   - Konstantinos
 ---
 
-# A quick UI recap
+# A quick UI progress recap
 
 How it started...
 
