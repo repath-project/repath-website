@@ -30,8 +30,8 @@ unless it is required by law or in order to fulfil a legal obligation.
 
 ## How do we store your data?
 
-We use [Sentry](https://sentry.io) to store error reports. Error events will be
-automatically deleted after 90 days.
+We use [Sentry](https://sentry.io) to store error reports in the EU. For more information,
+see [Sentry's Data Storage Location](https://docs.sentry.io/organization/data-storage-location/).
 
 ## How can you access or delete this data?
 
@@ -40,12 +40,16 @@ find your data. When you use the application for the first time, you will be not
 about this and you will have the option to enable or disable error reports. We also offer
 the ability to change this option at any time.
 
+Error events will be automatically deleted after 90 days. For more information, see
+[Sentry's Data Retention Periods](https://docs.sentry.io/security-legal-pii/security/data-retention-periods/).
+
 ## Data sub-processors
 
 A list of sub-processors and third-party service providers is maintained below.
 
 - [GitHub](https://github.com/) - Our website is served as a GitHub Page. For more
-  information about GitHub's practices, see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+  information about GitHub's practices,
+  see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 - [Sentry](https://sentry.io/) - Sentry is used for error reporting. For more information
   about Sentry's practices, see their [Privacy Statement](https://sentry.io/privacy/).
 
