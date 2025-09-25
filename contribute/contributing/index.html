@@ -1111,27 +1111,27 @@
 <p>Thank you for your interest in actively participating in the project's development!
 Please read the <a href="https://github.com/repath-project/repath-studio/blob/main/CODE_OF_CONDUCT.md">Contributor Covenant Code of Conduct</a>
 and the <a href="../CLA/">Contributor License Agreement</a> first.</p>
-<p>The project is written in <a href="https://clojurescript.org/">ClojureScript</a> - a compiler for
-<a href="https://clojure.org/">Clojure</a> that targets JavaScript, and is based on
-<a href="https://github.com/day8/re-frame/">re-frame</a> - a framework for building Modern Web Apps
-in ClojureScript. You should probably take a look at their
-<a href="https://day8.github.io/re-frame/re-frame/">exceptional documentation</a> first.</p>
+<p>The project is written in <a href="https://clojurescript.org/">ClojureScript</a> - a
+compiler for <a href="https://clojure.org/">Clojure</a> that targets JavaScript, and is
+based on <a href="https://github.com/day8/re-frame/">re-frame</a> - a framework for
+building Modern Web Apps in ClojureScript. You should probably take a look at
+their <a href="https://day8.github.io/re-frame/re-frame/">exceptional documentation</a>
+first.</p>
 <h2 id="style-guide">Style Guide<a class="headerlink" href="#style-guide" title="Permanent link">¶</a></h2>
-<p>We try to follow the <a href="https://guide.clojure.style/">Clojure Style Guide</a> as much as
-possible.</p>
+<p>We try to follow the <a href="https://guide.clojure.style/">Clojure Style Guide</a> as much
+as possible.</p>
 <p>An additional resource about <a href="https://stuartsierra.com/2016/01/09/how-to-name-clojure-functions">how to name Clojure functions</a>
 by Stuart Sierra.</p>
 <p>In addition to the <a href="https://guide.clojure.style/#idiomatic-names">idiomatic names</a>,
 we use the following conventions</p>
-<pre>e           -&gt; event
+<div class="highlight"><pre><span></span><code>e           -&gt; event
 el, els     -&gt; element, elements
 attr, attrs -&gt; attribute, attributes
 prop, props -&gt; property, properties
 w, h        -&gt; width, height
 t           -&gt; time
 h, m, s, ms -&gt; hours, minutes, seconds, milliseconds
-</pre>
-
+</code></pre></div>
 <h2 id="app-structure">App structure<a class="headerlink" href="#app-structure" title="Permanent link">¶</a></h2>
 <p>Main structure</p>
 <pre>src\
@@ -1141,10 +1141,10 @@ h, m, s, ms -&gt; hours, minutes, seconds, milliseconds
 └── worker\   -&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>
 </pre>
 
-<p>We are trying to split our code under renderer into relatively independent modules,
-following <a href="https://day8.github.io/re-frame/App-Structure/">re-frame's app structure suggestions</a>
+<p>We are trying to split our code under renderer into relatively independent
+modules, following <a href="https://day8.github.io/re-frame/App-Structure/">re-frame's app structure suggestions</a>
 with some minor additions.</p>
-<pre>module\
+<div class="highlight"><pre><span></span><code>module\
 ├── core.cljs      -&gt; entry point
 ├── db.cljs        -&gt; schema, validation
 ├── views.cljs     -&gt; reagent views
@@ -1155,31 +1155,30 @@ with some minor additions.</p>
 ├── hierarchy.cljs -&gt; multimethods and hierarchies
 ├── styles.css     -&gt; styles
 └── README.md      -&gt; documentation
-</pre>
-
+</code></pre></div>
 <h2 id="re-frame-recommendations">Re-frame recommendations<a class="headerlink" href="#re-frame-recommendations" title="Permanent link">¶</a></h2>
-<p>Avoid chaining events to create new ones. Always prefer composing pure functions that
-directly transform the db. That is the whole purpose of <code>handlers</code> namespace.</p>
-<p>Use interceptors sparingly. Although they look (and probably are) ingenious, it is hard
-to write and reason with them. Doing things explicitly, is usually easier to grasp and
-maintain.</p>
-<p>Always use auto-qualified keywords (e.g. <code>::copy</code>) for subscriptions, events and effects.
-You can use <code>as-alias</code> to require those namespaces without evaluating the registrations
-multiple times.</p>
+<p>Avoid chaining events to create new ones. Always prefer composing pure functions
+that directly transform the db. That is the whole purpose of <code>handlers</code> namespace.</p>
+<p>Use interceptors sparingly. Although they look (and probably are) ingenious, it
+is hard to write and reason with them. Doing things explicitly, is usually
+easier to grasp and maintain.</p>
+<p>Always use auto-qualified keywords (e.g. <code>::copy</code>) for subscriptions, events and
+effects. You can use <code>as-alias</code> to require those namespaces without evaluating
+the registrations multiple times.</p>
 <h2 id="spec">Spec<a class="headerlink" href="#spec" title="Permanent link">¶</a></h2>
-<p>We use <a href="https://github.com/metosin/malli">malli</a> to describe the shape of our app db and
-selectively validate incoming data (e.g. file loading). We also use this spec to generate
-default values. Full db validation is enabled on dev mode.</p>
+<p>We use <a href="https://github.com/metosin/malli">malli</a> to describe the shape of our
+app db and selectively validate incoming data (e.g. file loading). We also use
+this spec to generate default values. Full db validation is enabled on dev mode.</p>
 <p><a href="https://github.com/metosin/malli/blob/master/docs/function-schemas.md#defn-schemas">Function schemas</a>
-are selectively applied to pure and critical namespaces, such as utils and handlers.
-By default, function schemas are instrumented only during tests to avoid performance
-overhead. However, runtime instrumentation can also be enabled in the development
-environment (see <code>renderer.dev</code>).</p>
+are selectively applied to pure and critical namespaces, such as utils and
+handlers. By default, function schemas are instrumented only during tests to
+avoid performance overhead. However, runtime instrumentation can also be enabled
+in the development environment (see <code>renderer.dev</code>).</p>
 <h2 id="useful-development-shortcuts">Useful development shortcuts<a class="headerlink" href="#useful-development-shortcuts" title="Permanent link">¶</a></h2>
-<pre>Ctrl+Shift+I -&gt; Toggle devtools
+<div class="highlight"><pre><span></span><code>Ctrl+Shift+I -&gt; Toggle devtools
 Ctrl+Shift+X -&gt; Toggle 10x
 Ctrl+R       -&gt; Reload app
-</pre>
+</code></pre></div>
 
 
 
