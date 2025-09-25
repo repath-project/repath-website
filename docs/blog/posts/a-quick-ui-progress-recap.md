@@ -22,6 +22,6 @@ How it started...
 ![6](/assets/images/6.png)
 ![7](/assets/images/7.png)
 
-...How it's going
+How it's going...
 
 ![8](/assets/images/8.png)
