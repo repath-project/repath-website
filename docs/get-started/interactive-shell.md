@@ -5,7 +5,7 @@ or even extend the editor on the fly.
 
 ## What is a REPL?
 
-A REPL ([read–eval–print loop]((https://en.wikipedia.org/wiki/Read%e2%80%93eval%e2%80%93print_loop))),
+A REPL ([read–eval–print loop](https://en.wikipedia.org/wiki/Read%e2%80%93eval%e2%80%93print_loop)),
 also known as command shell, is an interactive computer programming environment that takes
 user inputs, executes them, and returns the result to the user.
 
