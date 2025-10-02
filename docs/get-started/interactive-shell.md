@@ -12,7 +12,7 @@ user inputs, executes them, and returns the result to the user.
 
 ## Examples
 
-Lets define a `kitty` function that fetches a random cat image from [the cat api](https://thecatapi.com/)
+Let's define a `kitty` function that fetches a random cat image from [the cat api](https://thecatapi.com/)
 and creates an image element.
 
 ```clojure { .yaml .copy }
