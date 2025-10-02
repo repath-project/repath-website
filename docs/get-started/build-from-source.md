@@ -1,6 +1,10 @@
 # Build from source
 
+You also have the option to build the app directly from its source code.
+
 ## System Requirements
+
+You need to have the following dependencies installed on your system.
 
 - [node.js](https://nodejs.org/)
 - Java SDK (8+) [OpenJDK](https://openjdk.org/) or
