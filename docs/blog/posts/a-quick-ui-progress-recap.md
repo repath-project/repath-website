@@ -20,8 +20,7 @@ How it started...
 ![4](/assets/images/4.png)
 ![5](/assets/images/5.png)
 ![6](/assets/images/6.png)
-![7](/assets/images/7.png)
 
 How it's going...
 
-![8](/assets/images/8.png)
+![7](/assets/images/7.png)
